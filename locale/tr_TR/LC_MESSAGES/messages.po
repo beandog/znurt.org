@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: znurt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-11 13:11-0700\n"
+"PO-Revision-Date: 2010-01-12 20:20+0200\n"
+"Last-Translator: Gürkan Gür <seqizz@gmail.com>\n"
+"Language-Team: tr <seqizz@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/steve/svn/znurt/about.php:5
+msgid "ABOUT"
+msgstr "HAKKINDA"
+
+#: /home/steve/svn/znurt/about.php:12
+#: /home/steve/svn/znurt/gettext.php:29
+msgid "You must be really bored if you're looking at this page."
+msgstr "Bu sayfayı okuduğunuza göre bayağı sıkılmış olmalısınız."
+
+#: /home/steve/svn/znurt/about.php:15
+msgid "\"the fresh ebuilds\" is a site to track information about packages, ebuilds and their relative metadata supplied by <a href='http://www.gentoo.org/'>Gentoo Linux</a>."
+msgstr "\"yeni ebuild'ler\", <a href='http://www.gentoo.org/'>Gentoo Linux</a> tarafından sunulan paketler, ebuild'ler ve ilgili bilgilerin takip edilebileceği bir sitedir."
+
+#: /home/steve/svn/znurt/about.php:16
+msgid "This site is not an official Gentoo website."
+msgstr "Bu site resmi bir Gentoo sitesi değildir."
+
+#: /home/steve/svn/znurt/about.php:17
+msgid "Original Gentoo artwork and logos copyright &copy; Gentoo Foundation."
+msgstr "Orijinal Gentoo logoları telif hakkı &copy; Gentoo Vakfı."
+
+#: /home/steve/svn/znurt/about.php:18
+#, php-format
+msgid "\"the fresh ebuilds\" original design and artwork by %s."
+msgstr "\"yeni ebuild'ler\" orijinal dizayn ve sanat: %s."
+
+#: /home/steve/svn/znurt/about.php:19
+#, php-format
+msgid "Icon set copyright &copy; %s."
+msgstr "Simge seti telif hakkı &copy; %s."
+
+#: /home/steve/svn/znurt/about.php:20
+#, php-format
+msgid "Original code and site maintenance by %s."
+msgstr "Orijinal kod ve site bakımı: %s."
+
+#: /home/steve/svn/znurt/about.php:21
+#, php-format
+msgid "Powered by %s and lots of chocolate-chip cookies."
+msgstr "%s ve birçok çikolata-çerez yardımı ile oluşturulmuştur."
+
+#: /home/steve/svn/znurt/architectures.php:7
+msgid "ARCHITECTURES"
+msgstr "MİMARİLER"
+
+#: /home/steve/svn/znurt/architectures.php:16
+msgid "Pick the architectures to display:"
+msgstr "Gösterilecek mimarileri seçin:"
+
+#: /home/steve/svn/znurt/architectures.php:32
+msgid "Submit"
+msgstr "Gönder"
+
+#: /home/steve/svn/znurt/architectures.php:34
+msgid "Reset Architectures"
+msgstr "Mimarileri Sıfırla"
+
+#: /home/steve/svn/znurt/architectures.php:72
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: /home/steve/svn/znurt/architectures.php:74
+msgid "Select None"
+msgstr "Hiçbirini Seçme"
+
+#: /home/steve/svn/znurt/architectures.php:76
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: /home/steve/svn/znurt/base.php:42
+#: /home/steve/svn/znurt/base.php:65
+#: /home/steve/svn/znurt/base.php:100
+#: /home/steve/svn/znurt/inc.header1.php:10
+msgid "the fresh ebuilds"
+msgstr "yeni ebuild'ler"
+
+#: /home/steve/svn/znurt/base.php:42
+msgid "about"
+msgstr "hakkında"
+
+#: /home/steve/svn/znurt/base.php:48
+msgid "architectures"
+msgstr "mimariler"
+
+#: /home/steve/svn/znurt/base.php:60
+msgid "categories"
+msgstr "kategoriler"
+
+#: /home/steve/svn/znurt/base.php:65
+msgid "bugs"
+msgstr "hata kayıtları"
+
+#: /home/steve/svn/znurt/base.php:77
+msgid "xml feeds"
+msgstr "xml beslemeleri"
+
+#: /home/steve/svn/znurt/base.php:83
+#: /home/steve/svn/znurt/base.php:147
+msgid "licenses"
+msgstr "lisanslar"
+
+#: /home/steve/svn/znurt/base.php:95
+#: /home/steve/svn/znurt/base.php:161
+#: /home/steve/svn/znurt/feeds.php:47
+msgid "new packages"
+msgstr "yeni paketler"
+
+#: /home/steve/svn/znurt/base.php:100
+msgid "feature requests"
+msgstr "özellik istekleri"
+
+#: /home/steve/svn/znurt/base.php:110
+msgid "advanced search"
+msgstr "gelişmiş arama"
+
+#: /home/steve/svn/znurt/base.php:116
+#: /home/steve/svn/znurt/base.php:176
+#: /home/steve/svn/znurt/base.php:179
+#: /home/steve/svn/znurt/useflags.php:12
+msgid "use flags"
+msgstr "use bayrakları"
+
+#: /home/steve/svn/znurt/base.php:142
+#: /home/steve/svn/znurt/base.php:225
+msgid "architecture"
+msgstr "mimari"
+
+#: /home/steve/svn/znurt/base.php:154
+msgid "new ebuilds"
+msgstr "yeni ebuild'ler"
+
+#: /home/steve/svn/znurt/base.php:167
+msgid "search"
+msgstr "arama"
+
+#: /home/steve/svn/znurt/bugs.php:2
+#: /home/steve/svn/znurt/inc.package.php:51
+msgid "BUGS"
+msgstr "HATALAR"
+
+#: /home/steve/svn/znurt/categories.php:12
+msgid "CATEGORIES"
+msgstr "KATEGORİLER"
+
+#: /home/steve/svn/znurt/feeds.php:7
+#: /home/steve/svn/znurt/nav.social_media.php:4
+msgid "Subscription Feeds"
+msgstr "Besleme Abonelikleri"
+
+#: /home/steve/svn/znurt/feeds.php:11
+msgid "fresh ebuilds"
+msgstr "yeni ebuild'ler"
+
+#: /home/steve/svn/znurt/feeds.php:26
+#: /home/steve/svn/znurt/feeds.php:56
+msgid "All Architectures"
+msgstr "Tüm Mimariler"
+
+#: /home/steve/svn/znurt/inc.header1.php:98
+msgid "January"
+msgstr "Ocak"
+
+#: /home/steve/svn/znurt/inc.header1.php:99
+msgid "February"
+msgstr "Şubat"
+
+#: /home/steve/svn/znurt/inc.header1.php:100
+msgid "March"
+msgstr "Mart"
+
+#: /home/steve/svn/znurt/inc.header1.php:101
+msgid "April"
+msgstr "Nisan"
+
+#: /home/steve/svn/znurt/inc.header1.php:102
+msgid "May"
+msgstr "Mayıs"
+
+#: /home/steve/svn/znurt/inc.header1.php:103
+msgid "June"
+msgstr "Haziran"
+
+#: /home/steve/svn/znurt/inc.header1.php:104
+msgid "July"
+msgstr "Temmuz"
+
+#: /home/steve/svn/znurt/inc.header1.php:105
+msgid "August"
+msgstr "Ağustos"
+
+#: /home/steve/svn/znurt/inc.header1.php:106
+msgid "September"
+msgstr "Eylül"
+
+#: /home/steve/svn/znurt/inc.header1.php:107
+msgid "October"
+msgstr "Ekim"
+
+#: /home/steve/svn/znurt/inc.header1.php:108
+msgid "November"
+msgstr "Kasım"
+
+#: /home/steve/svn/znurt/inc.header1.php:109
+msgid "December"
+msgstr "Aralık"
+
+#: /home/steve/svn/znurt/inc.header1.php:211
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "Bugs"
+msgstr "Hatalar"
+
+#: /home/steve/svn/znurt/inc.header1.php:212
+msgid "Category"
+msgstr "Kategori"
+
+#: /home/steve/svn/znurt/inc.header1.php:213
+msgid "ChangeLog"
+msgstr "Değişim Kaydı"
+
+#: /home/steve/svn/znurt/inc.header1.php:214
+msgid "CVS"
+msgstr "CVS"
+
+#: /home/steve/svn/znurt/inc.header1.php:215
+msgid "Dependencies"
+msgstr "Bağımlılıklar"
+
+#: /home/steve/svn/znurt/inc.header1.php:216
+msgid "Forums"
+msgstr "Forumlar"
+
+#: /home/steve/svn/znurt/inc.header1.php:217
+msgid "Homepage"
+msgstr "Anasayfa"
+
+#: /home/steve/svn/znurt/inc.header1.php:218
+msgid "License"
+msgstr "Lisans"
+
+#: /home/steve/svn/znurt/inc.header1.php:219
+msgid "Mailing Lists"
+msgstr "Mail Listeleri"
+
+#: /home/steve/svn/znurt/inc.header1.php:220
+msgid "Metadata"
+msgstr "Metabilgi"
+
+#: /home/steve/svn/znurt/inc.header1.php:221
+msgid "PACKAGE DESCRIPTION"
+msgstr "PAKET TANIMI"
+
+#: /home/steve/svn/znurt/inc.header1.php:222
+msgid "Planet"
+msgstr "Gezegen"
+
+#: /home/steve/svn/znurt/inc.header1.php:223
+#: /home/steve/svn/znurt/nav.primary.php:4
+msgid "Recent Changes"
+msgstr "Son Değişiklikler"
+
+#: /home/steve/svn/znurt/inc.header1.php:224
+msgid "Source"
+msgstr "Kaynak"
+
+#: /home/steve/svn/znurt/inc.header1.php:225
+#: /home/steve/svn/znurt/nav.primary.php:8
+msgid "Use Flags"
+msgstr "Use Bayrakları"
+
+#: /home/steve/svn/znurt/inc.header1.php:226
+msgid "Wiki"
+msgstr "Wiki"
+
+#: /home/steve/svn/znurt/inc.package.php:29
+msgid "CHANGELOG"
+msgstr "DEĞIŞIKLIKLER"
+
+#: /home/steve/svn/znurt/inc.package.php:81
+msgid "No bugs found"
+msgstr "Hata kaydı yok"
+
+#: /home/steve/svn/znurt/inc.package.php:95
+msgid "USE FLAGS"
+msgstr "USE BAYRAKLARI"
+
+#: /home/steve/svn/znurt/inc.package.php:126
+msgid "No Use Flags"
+msgstr "Use Bayrağı Yok"
+
+#: /home/steve/svn/znurt/inc.package.php:153
+msgid "BUILD DEPENDENCIES"
+msgstr "DERLEME BAĞIMLILIKLARI"
+
+#: /home/steve/svn/znurt/inc.package.php:155
+msgid "RUNTIME DEPENDENCIES"
+msgstr "ÇALIŞTIRMA BAĞIMLILIKLARI"
+
+#: /home/steve/svn/znurt/inc.package.php:186
+msgid "REVERSE DEPENDENCIES"
+msgstr "TERS BAĞIMLILIKLAR"
+
+#: /home/steve/svn/znurt/inc.package.php:218
+msgid "SOURCE CODE"
+msgstr "KAYNAK KODU"
+
+#: /home/steve/svn/znurt/inc.package.php:230
+msgid "LICENSE"
+msgstr "LİSANS"
+
+#: /home/steve/svn/znurt/inc.package.php:236
+msgid "DOWNLOADS"
+msgstr "İNDİRMELER"
+
+#: /home/steve/svn/znurt/license.php:5
+msgid "LICENSE:"
+msgstr "LİSANS:"
+
+#: /home/steve/svn/znurt/licenses.php:13
+msgid "SOFTWARE LICENSES"
+msgstr "YAZILIM LİSANSLARI"
+
+#: /home/steve/svn/znurt/nav.legend.php:3
+msgid "LEGEND"
+msgstr ""
+
+#: /home/steve/svn/znurt/nav.legend.php:5
+msgid "stable"
+msgstr "kararlı"
+
+#: /home/steve/svn/znurt/nav.legend.php:6
+msgid "testing"
+msgstr "test"
+
+#: /home/steve/svn/znurt/nav.legend.php:7
+msgid "not keyworded"
+msgstr "keyword'lenmemiş"
+
+#: /home/steve/svn/znurt/nav.legend.php:8
+msgid "not available"
+msgstr "uygun değil"
+
+#: /home/steve/svn/znurt/nav.legend.php:9
+msgid "hard masked"
+msgstr "maskelenmiş"
+
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "About"
+msgstr "Hakkında"
+
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "Requests"
+msgstr "İstekler"
+
+#: /home/steve/svn/znurt/nav.primary.php:5
+#: /home/steve/svn/znurt/new_packages.php:5
+msgid "New Packages"
+msgstr "Yeni Paketler"
+
+#: /home/steve/svn/znurt/nav.primary.php:6
+msgid "New Ebuilds"
+msgstr "Yeni Ebuild'ler"
+
+#: /home/steve/svn/znurt/nav.primary.php:7
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: /home/steve/svn/znurt/nav.primary.php:9
+msgid "Architectures"
+msgstr "Mimariler"
+
+#: /home/steve/svn/znurt/nav.recent_changes.php:2
+msgid "RECENT CHANGES"
+msgstr "SON DEĞİŞİKLİKLER"
+
+#: /home/steve/svn/znurt/nav.recent_changes.php:18
+msgid "View More"
+msgstr "Daha Fazla"
+
+#: /home/steve/svn/znurt/nav.search.php:2
+msgid "SEARCH"
+msgstr "ARA"
+
+#: /home/steve/svn/znurt/nav.search.php:6
+msgid "Search"
+msgstr "Ara"
+
+#: /home/steve/svn/znurt/nav.social_media.php:5
+msgid "Follow us on Twitter"
+msgstr "Bizi Twitter'dan İzleyin"
+
+#: /home/steve/svn/znurt/new.php:15
+msgid "SORT BY PLATFORM"
+msgstr "MİMARİYE GÖRE LİSTELE"
+
+#: /home/steve/svn/znurt/new.php:18
+msgid "all platforms"
+msgstr "tüm mimariler"
+
+#: /home/steve/svn/znurt/new.php:70
+msgid "Next Page"
+msgstr "Sonraki Sayfa"
+
+#: /home/steve/svn/znurt/new.php:74
+msgid "Previous Page"
+msgstr "Önceki Sayfa"
+
+#: /home/steve/svn/znurt/search.php:30
+msgid "ADVANCED SEARCH"
+msgstr "GELİŞMİŞ ARAMA"
+
+#: /home/steve/svn/znurt/search.php:79
+#: /home/steve/svn/znurt/search.php:109
+#, php-format
+msgid "SEARCH RESULTS FOR %1$s &nbsp; (%2$u)"
+msgstr "%1$s &nbsp; (%2$u) İÇİN ARAMA SONUÇLARI"
+
+#: /home/steve/svn/znurt/search.php:95
+#, php-format
+msgid "TOP (%1$u) SEARCH RESULTS FOR %2$s &nbsp; (%3$u)"
+msgstr ""
+
+#: /home/steve/svn/znurt/search.php:112
+msgid "Hmm, that query didn't work."
+msgstr "Hmm, bu işlem çalışmadı."
+

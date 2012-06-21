@@ -1,0 +1,438 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tomáš Chvátal <scarabeus@gentoo.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-11 13:11-0700\n"
+"PO-Revision-Date: 2010-01-11 21:46+0100\n"
+"Last-Translator: Tomáš Chvátal <scarabeus@gentoo.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: /home/steve/svn/znurt/about.php:5
+msgid "ABOUT"
+msgstr "O APLIKACI"
+
+#: /home/steve/svn/znurt/about.php:12 /home/steve/svn/znurt/gettext.php:29
+msgid "You must be really bored if you're looking at this page."
+msgstr "Opravdu se musíš nudit jestli si tuhle stránku vyhledal."
+
+#: /home/steve/svn/znurt/about.php:15
+msgid ""
+"\"the fresh ebuilds\" is a site to track information about packages, ebuilds "
+"and their relative metadata supplied by <a href='http://www.gentoo."
+"org/'>Gentoo Linux</a>."
+msgstr ""
+"\"žhavé ebuildy\" je stránka sledující informace o balíčcích ebuildech a "
+"jejich meta informacích dostupných v <a href='http://www.gentoo."
+"org/'>Gentoo Linuxu</a>."
+
+#: /home/steve/svn/znurt/about.php:16
+msgid "This site is not an official Gentoo website."
+msgstr "Tato stránka není oficiální Gentoo webová stránka."
+
+#: /home/steve/svn/znurt/about.php:17
+msgid "Original Gentoo artwork and logos copyright &copy; Gentoo Foundation."
+msgstr "Původní Gentoo artwork a logo copyright &copy; Gentoo Foundation."
+
+#: /home/steve/svn/znurt/about.php:18
+#, php-format
+msgid "\"the fresh ebuilds\" original design and artwork by %s."
+msgstr "\"žhavé ebuildy\" původní design a artwork od %s."
+
+#: /home/steve/svn/znurt/about.php:19
+#, php-format
+msgid "Icon set copyright &copy; %s."
+msgstr "Copyright ikon: &copy; %s."
+
+#: /home/steve/svn/znurt/about.php:20
+#, php-format
+msgid "Original code and site maintenance by %s."
+msgstr "Původní kód a správcem stránky je %s."
+
+#: /home/steve/svn/znurt/about.php:21
+#, php-format
+msgid "Powered by %s and lots of chocolate-chip cookies."
+msgstr "Powered by %s a hromadou čokoládovjech sušenek."
+
+#: /home/steve/svn/znurt/architectures.php:7
+msgid "ARCHITECTURES"
+msgstr "ARCHITEKTURY"
+
+#: /home/steve/svn/znurt/architectures.php:16
+msgid "Pick the architectures to display:"
+msgstr "Vyber architektury k zobrazení:"
+
+#: /home/steve/svn/znurt/architectures.php:32
+msgid "Submit"
+msgstr "Odeslat"
+
+#: /home/steve/svn/znurt/architectures.php:34
+msgid "Reset Architectures"
+msgstr "Resetovat architektury"
+
+#: /home/steve/svn/znurt/architectures.php:72
+msgid "Select All"
+msgstr "Vybrat vše"
+
+#: /home/steve/svn/znurt/architectures.php:74
+msgid "Select None"
+msgstr "Vybrat nic"
+
+#: /home/steve/svn/znurt/architectures.php:76
+msgid "Reset"
+msgstr "Původní"
+
+#: /home/steve/svn/znurt/base.php:42 /home/steve/svn/znurt/base.php:65
+#: /home/steve/svn/znurt/base.php:100 /home/steve/svn/znurt/inc.header1.php:10
+msgid "the fresh ebuilds"
+msgstr "žhavé ebuildy"
+
+#: /home/steve/svn/znurt/base.php:42
+msgid "about"
+msgstr "O aplikaci"
+
+#: /home/steve/svn/znurt/base.php:48
+msgid "architectures"
+msgstr "architektury"
+
+#: /home/steve/svn/znurt/base.php:60
+msgid "categories"
+msgstr "kategorie"
+
+#: /home/steve/svn/znurt/base.php:65
+msgid "bugs"
+msgstr "chyby"
+
+#: /home/steve/svn/znurt/base.php:77
+msgid "xml feeds"
+msgstr "xml kanály"
+
+#: /home/steve/svn/znurt/base.php:83 /home/steve/svn/znurt/base.php:147
+msgid "licenses"
+msgstr "licence"
+
+#: /home/steve/svn/znurt/base.php:95 /home/steve/svn/znurt/base.php:161
+#: /home/steve/svn/znurt/feeds.php:47
+msgid "new packages"
+msgstr "nové balíčky"
+
+#: /home/steve/svn/znurt/base.php:100
+msgid "feature requests"
+msgstr "požadavky na vlastnosti"
+
+#: /home/steve/svn/znurt/base.php:110
+msgid "advanced search"
+msgstr "pokročilé vyhledávání"
+
+#: /home/steve/svn/znurt/base.php:116 /home/steve/svn/znurt/base.php:176
+#: /home/steve/svn/znurt/base.php:179 /home/steve/svn/znurt/useflags.php:12
+msgid "use flags"
+msgstr "use flagy"
+
+#: /home/steve/svn/znurt/base.php:142 /home/steve/svn/znurt/base.php:225
+msgid "architecture"
+msgstr "architektura"
+
+#: /home/steve/svn/znurt/base.php:154
+msgid "new ebuilds"
+msgstr "nové ebuildy"
+
+#: /home/steve/svn/znurt/base.php:167
+msgid "search"
+msgstr "Hledat"
+
+#: /home/steve/svn/znurt/bugs.php:2 /home/steve/svn/znurt/inc.package.php:51
+msgid "BUGS"
+msgstr "CHYBY"
+
+#: /home/steve/svn/znurt/categories.php:12
+msgid "CATEGORIES"
+msgstr "KATEGORIE"
+
+#: /home/steve/svn/znurt/feeds.php:7
+#: /home/steve/svn/znurt/nav.social_media.php:4
+msgid "Subscription Feeds"
+msgstr "Přihlášení k odběru kanálů"
+
+#: /home/steve/svn/znurt/feeds.php:11
+msgid "fresh ebuilds"
+msgstr "žhavé ebuildy"
+
+#: /home/steve/svn/znurt/feeds.php:26 /home/steve/svn/znurt/feeds.php:56
+msgid "All Architectures"
+msgstr "Všechny architektury"
+
+#: /home/steve/svn/znurt/inc.header1.php:98
+msgid "January"
+msgstr "Leden"
+
+#: /home/steve/svn/znurt/inc.header1.php:99
+msgid "February"
+msgstr "Únor"
+
+#: /home/steve/svn/znurt/inc.header1.php:100
+msgid "March"
+msgstr "Březen"
+
+#: /home/steve/svn/znurt/inc.header1.php:101
+msgid "April"
+msgstr "Duben"
+
+#: /home/steve/svn/znurt/inc.header1.php:102
+msgid "May"
+msgstr "Květen"
+
+#: /home/steve/svn/znurt/inc.header1.php:103
+msgid "June"
+msgstr "Červen"
+
+#: /home/steve/svn/znurt/inc.header1.php:104
+msgid "July"
+msgstr "Červenec"
+
+#: /home/steve/svn/znurt/inc.header1.php:105
+msgid "August"
+msgstr "Srpen"
+
+#: /home/steve/svn/znurt/inc.header1.php:106
+msgid "September"
+msgstr "Září"
+
+#: /home/steve/svn/znurt/inc.header1.php:107
+msgid "October"
+msgstr "Říjen"
+
+#: /home/steve/svn/znurt/inc.header1.php:108
+msgid "November"
+msgstr "Listopad"
+
+#: /home/steve/svn/znurt/inc.header1.php:109
+msgid "December"
+msgstr "Prosinec"
+
+#: /home/steve/svn/znurt/inc.header1.php:211
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "Bugs"
+msgstr "Chyby"
+
+#: /home/steve/svn/znurt/inc.header1.php:212
+msgid "Category"
+msgstr "Kategorie"
+
+#: /home/steve/svn/znurt/inc.header1.php:213
+msgid "ChangeLog"
+msgstr "Seznam změn"
+
+#: /home/steve/svn/znurt/inc.header1.php:214
+msgid "CVS"
+msgstr "CVS"
+
+#: /home/steve/svn/znurt/inc.header1.php:215
+msgid "Dependencies"
+msgstr "Závislosti"
+
+#: /home/steve/svn/znurt/inc.header1.php:216
+msgid "Forums"
+msgstr "Fóra"
+
+#: /home/steve/svn/znurt/inc.header1.php:217
+msgid "Homepage"
+msgstr "Domovská stránka"
+
+#: /home/steve/svn/znurt/inc.header1.php:218
+msgid "License"
+msgstr "Licence"
+
+#: /home/steve/svn/znurt/inc.header1.php:219
+msgid "Mailing Lists"
+msgstr "E-mailová konference"
+
+#: /home/steve/svn/znurt/inc.header1.php:220
+msgid "Metadata"
+msgstr "Meta údaje"
+
+#: /home/steve/svn/znurt/inc.header1.php:221
+msgid "PACKAGE DESCRIPTION"
+msgstr "POPIS BALÍČKU"
+
+#: /home/steve/svn/znurt/inc.header1.php:222
+msgid "Planet"
+msgstr "Planeta"
+
+#: /home/steve/svn/znurt/inc.header1.php:223
+#: /home/steve/svn/znurt/nav.primary.php:4
+msgid "Recent Changes"
+msgstr "Poslední změny"
+
+#: /home/steve/svn/znurt/inc.header1.php:224
+msgid "Source"
+msgstr "Zdroj"
+
+#: /home/steve/svn/znurt/inc.header1.php:225
+#: /home/steve/svn/znurt/nav.primary.php:8
+msgid "Use Flags"
+msgstr "Use Flagy"
+
+#: /home/steve/svn/znurt/inc.header1.php:226
+msgid "Wiki"
+msgstr "Wiki"
+
+#: /home/steve/svn/znurt/inc.package.php:29
+msgid "CHANGELOG"
+msgstr "SEZNAM ZMĚN"
+
+#: /home/steve/svn/znurt/inc.package.php:81
+msgid "No bugs found"
+msgstr "Nenalezeny žádné chyby"
+
+#: /home/steve/svn/znurt/inc.package.php:95
+msgid "USE FLAGS"
+msgstr "USE FLAGY"
+
+#: /home/steve/svn/znurt/inc.package.php:126
+msgid "No Use Flags"
+msgstr "Žádné use flagy"
+
+#: /home/steve/svn/znurt/inc.package.php:153
+msgid "BUILD DEPENDENCIES"
+msgstr "ZÁVISLOSTI PRO SESTAVENÍ"
+
+#: /home/steve/svn/znurt/inc.package.php:155
+msgid "RUNTIME DEPENDENCIES"
+msgstr "ZÁVISLOSTI PRO BĚH"
+
+#: /home/steve/svn/znurt/inc.package.php:186
+msgid "REVERSE DEPENDENCIES"
+msgstr "REVERZNÍ ZÁVISLOSTI"
+
+#: /home/steve/svn/znurt/inc.package.php:218
+msgid "SOURCE CODE"
+msgstr "ZDROJOVÝ KÓD"
+
+#: /home/steve/svn/znurt/inc.package.php:230
+msgid "LICENSE"
+msgstr "LICENCE"
+
+#: /home/steve/svn/znurt/inc.package.php:236
+msgid "DOWNLOADS"
+msgstr "STAŽENÍ"
+
+#: /home/steve/svn/znurt/license.php:5
+msgid "LICENSE:"
+msgstr "LICENCE:"
+
+#: /home/steve/svn/znurt/licenses.php:13
+msgid "SOFTWARE LICENSES"
+msgstr "SOFTWAROVÉ LICENCE"
+
+#: /home/steve/svn/znurt/nav.legend.php:3
+msgid "LEGEND"
+msgstr "LEGENDA"
+
+#: /home/steve/svn/znurt/nav.legend.php:5
+msgid "stable"
+msgstr "stabilní"
+
+#: /home/steve/svn/znurt/nav.legend.php:6
+msgid "testing"
+msgstr "testovací"
+
+#: /home/steve/svn/znurt/nav.legend.php:7
+msgid "not keyworded"
+msgstr "bez keywords"
+
+#: /home/steve/svn/znurt/nav.legend.php:8
+msgid "not available"
+msgstr "nedostupné"
+
+#: /home/steve/svn/znurt/nav.legend.php:9
+msgid "hard masked"
+msgstr "zamaskované"
+
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "About"
+msgstr "O aplikaci"
+
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "Requests"
+msgstr "Požadavky"
+
+#: /home/steve/svn/znurt/nav.primary.php:5
+#: /home/steve/svn/znurt/new_packages.php:5
+msgid "New Packages"
+msgstr "Nové balíčky"
+
+#: /home/steve/svn/znurt/nav.primary.php:6
+msgid "New Ebuilds"
+msgstr "Nové ebuildy"
+
+#: /home/steve/svn/znurt/nav.primary.php:7
+msgid "Categories"
+msgstr "Kategorie"
+
+#: /home/steve/svn/znurt/nav.primary.php:9
+msgid "Architectures"
+msgstr "Architektury"
+
+#: /home/steve/svn/znurt/nav.recent_changes.php:2
+msgid "RECENT CHANGES"
+msgstr "POSLEDNÍ ZMĚNY"
+
+#: /home/steve/svn/znurt/nav.recent_changes.php:18
+msgid "View More"
+msgstr "Zobrazit více"
+
+#: /home/steve/svn/znurt/nav.search.php:2
+msgid "SEARCH"
+msgstr "HLEDAT"
+
+#: /home/steve/svn/znurt/nav.search.php:6
+msgid "Search"
+msgstr "Hledat"
+
+#: /home/steve/svn/znurt/nav.social_media.php:5
+msgid "Follow us on Twitter"
+msgstr "Následuj nás na Twitteru"
+
+#: /home/steve/svn/znurt/new.php:15
+msgid "SORT BY PLATFORM"
+msgstr "SEŘADIT DLE PLATFORMY"
+
+#: /home/steve/svn/znurt/new.php:18
+msgid "all platforms"
+msgstr "všechny platformy"
+
+#: /home/steve/svn/znurt/new.php:70
+msgid "Next Page"
+msgstr "Následující strana"
+
+#: /home/steve/svn/znurt/new.php:74
+msgid "Previous Page"
+msgstr "Předchozí strana"
+
+#: /home/steve/svn/znurt/search.php:30
+msgid "ADVANCED SEARCH"
+msgstr "POKROČILÉ VYHLEDÁVÁNÍ"
+
+#: /home/steve/svn/znurt/search.php:79 /home/steve/svn/znurt/search.php:109
+#, php-format
+msgid "SEARCH RESULTS FOR %1$s &nbsp; (%2$u)"
+msgstr "VÝSLEDKY HLEDÁNÍ PRO %1$s &nbsp; (%2$u)"
+
+#: /home/steve/svn/znurt/search.php:95
+#, php-format
+msgid "TOP (%1$u) SEARCH RESULTS FOR %2$s &nbsp; (%3$u)"
+msgstr "NEJVYŠŠÍCH (%1$u) VÝSLEDKŮ PRO %2$s &nbsp; (%3$u)"
+
+#: /home/steve/svn/znurt/search.php:112
+msgid "Hmm, that query didn't work."
+msgstr "Hmm, tak tenhle query mi nevyšel."
+

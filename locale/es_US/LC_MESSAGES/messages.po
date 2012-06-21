@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-11 10:48-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/steve/svn/znurt/about.php:3
+msgid "ABOUT"
+msgstr "ACERCA"
+
+#: /home/steve/svn/znurt/architectures.php:7
+msgid "ARCHITECTURES"
+msgstr "ARQUITECTURAS"
+
+#: /home/steve/svn/znurt/architectures.php:16
+msgid "Pick the architectures to display:"
+msgstr "Elige las arquitecturas para usar:"
+
+#: /home/steve/svn/znurt/architectures.php:32
+msgid "Submit"
+msgstr ""
+
+#: /home/steve/svn/znurt/architectures.php:34
+msgid "Reset Architectures"
+msgstr ""
+
+#: /home/steve/svn/znurt/architectures.php:72
+msgid "Select All"
+msgstr ""
+
+#: /home/steve/svn/znurt/architectures.php:74
+msgid "Select None"
+msgstr ""
+
+#: /home/steve/svn/znurt/architectures.php:76
+msgid "Reset"
+msgstr ""
+
+#: /home/steve/svn/znurt/base.php:42 /home/steve/svn/znurt/base.php:65
+#: /home/steve/svn/znurt/base.php:100 /home/steve/svn/znurt/gettext.php:11
+#: /home/steve/svn/znurt/inc.header1.php:12
+msgid "the fresh ebuilds"
+msgstr "los nuevos ebuilds"
+
+#: /home/steve/svn/znurt/base.php:42
+msgid "about"
+msgstr "acerca"
+
+#: /home/steve/svn/znurt/base.php:48
+msgid "architectures"
+msgstr "arquitecturas"
+
+#: /home/steve/svn/znurt/base.php:60
+msgid "categories"
+msgstr "categorias"
+
+#: /home/steve/svn/znurt/base.php:65
+msgid "bugs"
+msgstr "problemas"
+
+#: /home/steve/svn/znurt/base.php:77
+msgid "xml feeds"
+msgstr "suscripciones xml"
+
+#: /home/steve/svn/znurt/base.php:83 /home/steve/svn/znurt/base.php:147
+msgid "licenses"
+msgstr "las licensias"
+
+#: /home/steve/svn/znurt/base.php:95 /home/steve/svn/znurt/base.php:161
+#: /home/steve/svn/znurt/feeds.php:47
+msgid "new packages"
+msgstr "nuevos paquetes"
+
+#: /home/steve/svn/znurt/base.php:100
+msgid "feature requests"
+msgstr "peticiones"
+
+#: /home/steve/svn/znurt/base.php:110
+msgid "advanced search"
+msgstr ""
+
+#: /home/steve/svn/znurt/base.php:116 /home/steve/svn/znurt/base.php:176
+#: /home/steve/svn/znurt/base.php:179 /home/steve/svn/znurt/useflags.php:12
+msgid "use flags"
+msgstr "opciones use"
+
+#: /home/steve/svn/znurt/base.php:142 /home/steve/svn/znurt/base.php:225
+msgid "architecture"
+msgstr "arquitectura"
+
+#: /home/steve/svn/znurt/base.php:154
+msgid "new ebuilds"
+msgstr "nuevos ebuilds"
+
+#: /home/steve/svn/znurt/base.php:167
+msgid "search"
+msgstr ""
+
+#: /home/steve/svn/znurt/bugs.php:2 /home/steve/svn/znurt/inc.package.php:51
+msgid "BUGS"
+msgstr "PROBLEMAS"
+
+#: /home/steve/svn/znurt/categories.php:12
+msgid "CATEGORIES"
+msgstr "CATEGORIAS"
+
+#: /home/steve/svn/znurt/nav.social_media.php:4
+msgid "Subscription Feeds"
+msgstr "Suscripciones XML"
+
+#: /home/steve/svn/znurt/feeds.php:11
+msgid "fresh ebuilds"
+msgstr "nuevos ebuilds"
+
+#: /home/steve/svn/znurt/feeds.php:26 /home/steve/svn/znurt/feeds.php:56
+msgid "All Architectures"
+msgstr "Todas Arquitecturas"
+
+#: /home/steve/svn/znurt/nav.search.php:2
+msgid "SEARCH"
+msgstr "BUSCAR"
+
+#: /home/steve/svn/znurt/nav.search.php:6
+msgid "Search"
+msgstr "Buscar"
+
+#: /home/steve/svn/znurt/inc.header1.php:412
+#: /home/steve/svn/znurt/nav.primary.php:4
+msgid "Recent Changes"
+msgstr "Cambios Recientes"
+
+#: /home/steve/svn/znurt/new_packages.php:5
+#: /home/steve/svn/znurt/nav.primary.php:5
+msgid "New Packages"
+msgstr "Nuevos Paquetes"
+
+#: /home/steve/svn/znurt/nav.primary.php:7
+msgid "Categories"
+msgstr "Categorias"
+
+#: /home/steve/svn/znurt/inc.header1.php:414
+#: /home/steve/svn/znurt/nav.primary.php:8
+msgid "Use Flags"
+msgstr "Opciones Use"
+
+#: /home/steve/svn/znurt/nav.primary.php:9
+msgid "Architectures"
+msgstr "Arquitecturas"
+
+#: /home/steve/svn/znurt/nav.legend.php:3
+msgid "LEGEND"
+msgstr "LEGENDA"
+
+#: /home/steve/svn/znurt/nav.legend.php:5
+msgid "stable"
+msgstr "estable"
+
+#: /home/steve/svn/znurt/nav.legend.php:6
+msgid "testing"
+msgstr "prueba"
+
+#: /home/steve/svn/znurt/nav.legend.php:7
+msgid "not keyworded"
+msgstr "no marcadas"
+
+#: /home/steve/svn/znurt/nav.legend.php:8
+msgid "not available"
+msgstr "no agregado"
+
+#: /home/steve/svn/znurt/nav.legend.php:9
+msgid "hard masked"
+msgstr "enmascaradas"
+
+#: /home/steve/svn/znurt/nav.social_media.php:5
+msgid "Follow us on Twitter"
+msgstr "Síguenos en Twitter"
+
+#: /home/steve/svn/znurt/nav.recent_changes.php:2
+msgid "RECENT CHANGES"
+msgstr "CAMBIOS RECIENTES"
+
+#: /home/steve/svn/znurt/nav.recent_changes.php:18
+msgid "View More"
+msgstr "Ver Más"
+
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "About"
+msgstr "Acerca"
+
+#: /home/steve/svn/znurt/inc.header1.php:400
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "Bugs"
+msgstr "Problemas"
+
+#: /home/steve/svn/znurt/nav.meta.php:3
+msgid "Requests"
+msgstr "Peticiones"
+
+#: /home/steve/svn/znurt/inc.header1.php:287
+msgid "January"
+msgstr "Enero"
+
+#: /home/steve/svn/znurt/inc.header1.php:288
+msgid "February"
+msgstr "Febrero"
+
+#: /home/steve/svn/znurt/inc.header1.php:289
+msgid "March"
+msgstr "Marzo"
+
+#: /home/steve/svn/znurt/inc.header1.php:290
+msgid "April"
+msgstr "Abril"
+
+#: /home/steve/svn/znurt/inc.header1.php:291
+msgid "May"
+msgstr "Mayo"
+
+#: /home/steve/svn/znurt/inc.header1.php:292
+msgid "June"
+msgstr "Junio"
+
+#: /home/steve/svn/znurt/inc.header1.php:293
+msgid "July"
+msgstr "Julio"
+
+#: /home/steve/svn/znurt/inc.header1.php:294
+msgid "August"
+msgstr "Agosto"
+
+#: /home/steve/svn/znurt/inc.header1.php:295
+msgid "September"
+msgstr "Septiembre"
+
+#: /home/steve/svn/znurt/inc.header1.php:296
+msgid "October"
+msgstr "Octubre"
+
+#: /home/steve/svn/znurt/inc.header1.php:297
+msgid "November"
+msgstr "Noviembre"
+
+#: /home/steve/svn/znurt/inc.header1.php:298
+msgid "December"
+msgstr "Diciembre"
+
+#: /home/steve/svn/znurt/inc.header1.php:401
+msgid "Category"
+msgstr "Categoría"
+
+#: /home/steve/svn/znurt/inc.header1.php:402
+msgid "ChangeLog"
+msgstr "Cambios"
+
+#: /home/steve/svn/znurt/inc.header1.php:403
+msgid "CVS"
+msgstr ""
+
+#: /home/steve/svn/znurt/inc.header1.php:404
+msgid "Dependencies"
+msgstr "Dependencias"
+
+#: /home/steve/svn/znurt/inc.header1.php:405
+msgid "Forums"
+msgstr "Forums"
+
+#: /home/steve/svn/znurt/inc.header1.php:406
+msgid "Homepage"
+msgstr "Sitio Web"
+
+#: /home/steve/svn/znurt/inc.header1.php:407
+msgid "License"
+msgstr "Licensia"
+
+#: /home/steve/svn/znurt/inc.header1.php:408
+msgid "Mailing Lists"
+msgstr "Lista de Correo"
+
+#: /home/steve/svn/znurt/inc.header1.php:409
+msgid "Metadata"
+msgstr ""
+
+#: /home/steve/svn/znurt/inc.header1.php:410
+msgid "PACKAGE DESCRIPTION"
+msgstr "DESCRIPCIÓN DE PAQUETE"
+
+#: /home/steve/svn/znurt/inc.header1.php:411
+msgid "Planet"
+msgstr "Planeta"
+
+#: /home/steve/svn/znurt/inc.header1.php:413
+msgid "Source"
+msgstr ""
+
+#: /home/steve/svn/znurt/inc.header1.php:415
+msgid "Wiki"
+msgstr "Wiki"
+
+#: /home/steve/svn/znurt/inc.package.php:29
+msgid "CHANGELOG"
+msgstr "CAMBIOS"
+
+#: /home/steve/svn/znurt/inc.package.php:81
+msgid "No bugs found"
+msgstr ""
+
+#: /home/steve/svn/znurt/inc.package.php:95
+msgid "USE FLAGS"
+msgstr "OPCIONES USE"
+
+#: /home/steve/svn/znurt/inc.package.php:126
+msgid "No Use Flags"
+msgstr "No hay opciones use"
+
+#: /home/steve/svn/znurt/inc.package.php:153
+msgid "BUILD DEPENDENCIES"
+msgstr "DEPENDENCIAS DE CONSTRUCCIÓN"
+
+#: /home/steve/svn/znurt/inc.package.php:155
+msgid "RUNTIME DEPENDENCIES"
+msgstr "DEPENDENCIAS DE EJECUCIÓN"
+
+#: /home/steve/svn/znurt/inc.package.php:186
+msgid "REVERSE DEPENDENCIES"
+msgstr "DEPENDENCIAS EN REVERSO"
+
+#: /home/steve/svn/znurt/inc.package.php:218
+msgid "SOURCE CODE"
+msgstr ""
+
+#: /home/steve/svn/znurt/inc.package.php:230
+msgid "LICENSE"
+msgstr "LICENZA"
+
+#: /home/steve/svn/znurt/inc.package.php:236
+msgid "DOWNLOADS"
+msgstr ""
+
+#: /home/steve/svn/znurt/license.php:5
+msgid "LICENSE:"
+msgstr "LICENZA:"
+
+#: /home/steve/svn/znurt/licenses.php:13
+msgid "SOFTWARE LICENSES"
+msgstr ""
+
+#: /home/steve/svn/znurt/new.php:15
+msgid "SORT BY PLATFORM"
+msgstr "ORDENA POR PLATAFORMA"
+
+#: /home/steve/svn/znurt/new.php:18
+msgid "all platforms"
+msgstr "todas"
+
+#: /home/steve/svn/znurt/new.php:70
+msgid "Next Page"
+msgstr "Proxima Página"
+
+#: /home/steve/svn/znurt/new.php:74
+msgid "Previous Page"
+msgstr "Página Previa"
+
+#: /home/steve/svn/znurt/search.php:30
+msgid "ADVANCED SEARCH"
+msgstr ""
+
+#: /home/steve/svn/znurt/search.php:78 /home/steve/svn/znurt/search.php:107
+msgid "SEARCH RESULTS FOR %1$s &nbsp; (%2$u)"
+msgstr "%2$u RESULTAS DE BUSCAR PARA %1$s"
+
+#: /home/steve/svn/znurt/search.php:93
+msgid "TOP (%1$u) SEARCH RESULTS FOR %2$s &nbsp; (%3$u)"
+msgstr "LOS PRIMEROS %1$u DE %3$u RESULTAS PARA BUSCAR %2$s"
+
+#: /home/steve/svn/znurt/search.php:110
+msgid "Hmm, that query didn't work."
+msgstr ""
+
+#: /home/steve/svn/znurt/nav.primary.php:6
+msgid "New Ebuilds"
+msgstr "Nuevos Ebuilds"
+
