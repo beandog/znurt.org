@@ -40,6 +40,8 @@
 	} else
 		$lingua = "en";
 
+	$img_flag = $base_uri.'img/flags/'.$lingua.'.png';
+
 	if($locale && in_array($locale, array_keys($arr_locales))) {
 	
 		setlocale(LC_MESSAGES, $locale);
