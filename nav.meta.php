@@ -6,9 +6,9 @@
 				
 				<?
 					if($lingua == "de") {
-						echo "Fragen, Kommentare, Korrekturen, Jobangebote?<br>E-Mail an <a href='mailto:beandog@gentoo.org'>beandog@gentoo.org</a>\n";
+						echo "Fragen, Kommentare, Korrekturen, Jobangebote?<br>E-Mail an <a href='mailto:steve.dibb@gmail.com'>steve.dibb@gmail.com</a>\n";
 					} else {
-						echo "Questions, Comments, Corrections, Job Offers?<br>Email <a href='mailto:beandog@gentoo.org'>beandog@gentoo.org</a>\n";
+						echo "Questions, Comments, Corrections, Job Offers?<br>Email <a href='mailto:steve.dibb@gmail.com'>steve.dibb@gmail.com</a>\n";
 					}
 				?>
 				

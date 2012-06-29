@@ -163,7 +163,7 @@
 		echo "\t<id>$self_url#$feed_time</id>\n";
 		echo "\t<author>\n";
 		echo "\t\t<name>Steve Dibb</name>\n";
-		echo "\t\t<email>beandog@gentoo.org</email>\n";
+		echo "\t\t<email>steve.dibb@gmail.com</email>\n";
 		echo "\t</author>\n";
 		
 		if(count($entries)) {
@@ -206,8 +206,8 @@
 		echo "\t<language>en-us</language>\n";
 		echo "\t<lastBuildDate>$feed_updated</lastBuildDate>\n";
 		echo "\t<pubDate>$feed_published</pubDate>\n";
-		echo "\t<managingEditor>beandog@gentoo.org (Steve Dibb)</managingEditor>\n";
-		echo "\t<webMaster>beandog@gentoo.org (Steve Dibb)</webMaster>\n";
+		echo "\t<managingEditor>steve.dibb@gmail.com (Steve Dibb)</managingEditor>\n";
+		echo "\t<webMaster>steve.dibb@gmail.com (Steve Dibb)</webMaster>\n";
 		echo "\t<ttl>60</ttl>\n";
 		
 		if(count($entries)) {

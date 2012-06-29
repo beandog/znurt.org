@@ -13,7 +13,7 @@
 	
 	echo "<p>Znurt is available to view in a few languages with localized links where available.  Translations are provided by volunteers.  We use <a href='http://www.gnu.org/software/gettext/gettext.html'>gettext</a> to translate the strings on the site from the original, and it works rather well.</p>\n";
 	
-	echo "<p>If you're interested in creating a version of the site in your native tounge, translations are welcome, as long as you can maintain the file when there are updates needed.  You can request a copy of the latest messages template by contacting beandog at gentoo.org.</p>\n";
+	echo "<p>If you're interested in creating a version of the site in your native tounge, translations are welcome, as long as you can maintain the file when there are updates needed.  You can request a copy of the latest messages template by contacting steve.dibb at gmail.com.</p>\n";
 	
 	$arr = array(
 		'Czech' => array('http://cz.znurt.org/', 'cz'),
