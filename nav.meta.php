@@ -1,7 +1,7 @@
 			<div class="meta">
 			
 				<span class="copyright">
-				<a href="<?=$base_uri.$url_about;?>"><?=gettext('About');?></a> &nbsp; | &nbsp; <a href="http://spaceparanoids.org/trac/znurt/report/1"><?=gettext('Bugs');?></a>
+				<a href="<?=$base_uri.$url_about;?>"><?=gettext('About');?></a> &nbsp; | &nbsp; <a href="https://github.com/beandog/znurt.org/issues"><?=gettext('Bugs');?></a>
 				<br><br>
 				
 				<?
