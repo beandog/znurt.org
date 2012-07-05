@@ -1,0 +1,9 @@
+	#header #logo {
+		background: url('../img/italian_gentoo_ebuilds.png') no-repeat;
+		position: absolute;
+		width: 307px;
+		height: 123px;
+		display: block;
+		top: 30px;
+		left: 50px;
+	}
