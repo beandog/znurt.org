@@ -29,6 +29,7 @@
 		$lingua = "fr";
 		$locale = "fr_FR";
 	} elseif($_SERVER['HTTP_HOST'] == "it.znurt.org" || $lingua == "it") {
+		$i18n = true;
  		$lingua = "it";
  		$locale = "it_IT";
 	} elseif($_SERVER['HTTP_HOST'] == "tr.znurt.org" || $lingua == "tr") {
