@@ -38,6 +38,9 @@
  	} elseif($_SERVER['HTTP_HOST'] == "ru.znurt.org" || $lingua == "ru") {
  		$lingua = "ru";
  		$locale = "ru_RU";
+ 	} elseif($_SERVER['HTTP_HOST'] == "el.znurt.org" || $lingua == "el") {
+ 		$lingua = "el";
+ 		$locale = "el_GR";
 	} else
 		$lingua = "en";
 

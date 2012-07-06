@@ -22,6 +22,8 @@
 	
 	if($locale == "de_DE") {
 		echo "<p>Übersetzung durch <a href='http://dev.gentoo.org/~patrick/'>Patrick Lauer</a> und <a href='http://gentoo.faulhammer.org/'>Christian Faulhammer</a>.\n";
+	} elseif($locale == "el_GR") {
+		echo "<p>Η ελληνική μετάφραση έγινε από τον Νικόλαο Χατζηδάκη\n";
 	}
 		
 	echo "</div>\n";

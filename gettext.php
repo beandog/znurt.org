@@ -1,6 +1,6 @@
 <?
 
-	$locale = "fr_FR";
+	$locale = "el_GR";
 
 	putenv("LC_ALL=$locale");
 	$var = setlocale(LC_ALL, $locale);
@@ -26,7 +26,7 @@
 // 	$str = sprintf(gettext('SEARCH RESULTS FOR %1$s &nbsp; (%2$u)'), "\"query\"", 15);
 // 	echo $str;
 	
-	$str = gettext("You must be really bored if you're looking at this page.");
+	$str = gettext("ABOUT");
 	echo $str;
 
 ?>

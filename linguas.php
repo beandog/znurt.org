@@ -20,9 +20,10 @@
 		'English' => array('http://en.znurt.org/', 'us'),
 		'French' => array('http://fr.znurt.org/', 'fr'),
 		'German' => array('http://de.znurt.org/', 'de'),
+		'Ελληνικά' => array('http://el.znurt.org/', 'gr'),
 		'Italian' => array('http://it.znurt.org/', 'it'),
 		'Russian' => array('http://ru.znurt.org/', 'ru'),
-		'Spanish' => array('http://es.znurt.org/', 'es'),
+		'Español' => array('http://es.znurt.org/', 'es'),
 		'Turkish' => array('http://tr.znurt.org/', 'tr',),
 	);
 	

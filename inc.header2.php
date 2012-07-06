@@ -32,6 +32,9 @@
 	<? if($lingua == 'it') { ?>
 		<link rel="stylesheet" href="<?=$base_uri;?>css/it.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<? } ?>
+	<? if($lingua == 'el') { ?>
+		<link rel="stylesheet" href="<?=$base_uri;?>css/el.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<? } ?>
 	<link rel="icon" type="image/vnd.microsoft.icon" href="<?=$base_uri;?>favicon.ico">
 	
 	<title>gentoo linux ~ <?=$html_title;?></title>
