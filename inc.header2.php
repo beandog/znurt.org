@@ -17,14 +17,20 @@
 	<? if($lingua == 'es') { ?>
 		<link rel="stylesheet" href="<?=$base_uri;?>css/es.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<? } ?>
+	<? if($lingua == 'fr') { ?>
+		<link rel="stylesheet" href="<?=$base_uri;?>css/fr.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<? } ?>
 	<? if($lingua == 'de') { ?>
 		<link rel="stylesheet" href="<?=$base_uri;?>css/de.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<? } ?>
 	<? if($lingua == 'tr') { ?>
 		<link rel="stylesheet" href="<?=$base_uri;?>css/tr.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<? } ?>
-	<? if($lingua == 'cs') { ?>
-		<link rel="stylesheet" href="<?=$base_uri;?>css/cs.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<? if($lingua == 'cz') { ?>
+		<link rel="stylesheet" href="<?=$base_uri;?>css/cz.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<? } ?>
+	<? if($lingua == 'it') { ?>
+		<link rel="stylesheet" href="<?=$base_uri;?>css/it.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<? } ?>
 	<link rel="icon" type="image/vnd.microsoft.icon" href="<?=$base_uri;?>favicon.ico">
 	
