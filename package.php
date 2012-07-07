@@ -16,3 +16,4 @@
 	}
 	
 ?>
+<script type='text/javascript'>$('data').update($('changelog').innerHTML);</script>
