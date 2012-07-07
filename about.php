@@ -9,7 +9,6 @@
 	
 	echo "<div class='about'>\n";
 	
-	echo "<p>$str</p>\n";
 	echo "<p>".gettext("\"the fresh ebuilds\" is a site to track information about packages, ebuilds and their relative metadata supplied by <a href='http://www.gentoo.org/'>Gentoo Linux</a>.")."</p>\n";
 	echo "<p>".gettext("This site is not an official Gentoo website.")."</p>\n";
 	echo "<p>".gettext("Original Gentoo artwork and logos copyright &copy; Gentoo Foundation.")."</p>\n";
