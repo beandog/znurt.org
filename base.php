@@ -120,6 +120,11 @@
 					$file = "useflags.php";
 					$html_title = gettext("use flags");
 					break;
+
+				case 'dev':
+					$file = 'dev.php';
+					$html_title = gettext('development');
+					break;
 			}
 		}
 	
