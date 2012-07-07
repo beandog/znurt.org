@@ -16,7 +16,7 @@
 	echo "<p>If you're interested in creating a version of the site in your native tounge, translations are welcome, as long as you can maintain the file when there are updates needed.  You can request a copy of the latest messages template by contacting steve.dibb at gmail.com.</p>\n";
 	
 	$arr = array(
-		'Czech' => array('http://cz.znurt.org/', 'cz'),
+		'Czech' => array('http://cs.znurt.org/', 'cs'),
 		'English' => array('http://en.znurt.org/', 'us'),
 		'French' => array('http://fr.znurt.org/', 'fr'),
 		'German' => array('http://de.znurt.org/', 'de'),

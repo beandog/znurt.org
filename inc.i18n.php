@@ -14,8 +14,8 @@
 		'ru_RU' => 'Russian',
 	);
 	
-	if($_SERVER['HTTP_HOST'] == "cs.znurt.org" || $_SERVER['HTTP_HOST'] == "cz.znurt.org") {
-		$lingua = "cz";
+	if($_SERVER['HTTP_HOST'] == "cs.znurt.org" || $lingua == "cs") {
+		$lingua = "cs";
 		$locale = "cs_CZ";
 	} elseif($_SERVER['HTTP_HOST'] == "de.znurt.org" || $lingua == "de") {
 		$i18n = true;
