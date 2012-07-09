@@ -8,11 +8,7 @@
 		if($_COOKIE)
 			$cache_id = md5($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] . md5(implode(" ", array_keys($_COOKIE))));
 		
-		// Use /tmp/znurt if we can hack it
-		if((!is_dir("/tmp/znurt") && mkdir("/tmp/znurt")) || (is_dir("/tmp/znurt") && is_writable("/tmp/znurt")))
-			$cache_tmp_dir = "/tmp/znurt/";
-		else
-			$cache_tmp_dir = "/tmp/";
+		$cache_tmp_dir = ini_get('session.save_path');
 		
 		$cache_options = array(
 			'cacheDir' => $cache_tmp_dir,
