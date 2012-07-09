@@ -1,38 +1,32 @@
-# Language gr translations for PACKAGE package.
-# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# root <root@localhost>, 2012.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-11 13:11-0700\n"
-"PO-Revision-Date: 2012-07-06 22:30+0000\n"
-"Last-Translator: root <root@localhost>\n"
-"Language-Team: Language gr\n"
+"PO-Revision-Date: 2012-07-07 22:54+0200\n"
+"Last-Translator: Νικόλαος Χατζηδάκης <nikhatzi@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gr_GR\n"
 
 #: /home/steve/svn/znurt/about.php:5
 msgid "ABOUT"
 msgstr "ΣΧΕΤΙΚΑ"
 
-#: /home/steve/svn/znurt/about.php:12 /home/steve/svn/znurt/gettext.php:29
+#: /home/steve/svn/znurt/about.php:12
+#: /home/steve/svn/znurt/gettext.php:29
 msgid "You must be really bored if you're looking at this page."
 msgstr "Πρέπει να βαριέστε πάρα πολύ εάν βλέπετε αυτή τη σελίδα"
 
 #: /home/steve/svn/znurt/about.php:15
-msgid ""
-"\"the fresh ebuilds\" is a site to track information about packages, ebuilds "
-"and their relative metadata supplied by <a href='http://www.gentoo."
-"org/'>Gentoo Linux</a>."
-msgstr ""
-"\"τα φρέσκα ebuilds\" είναι ένας ιστότοπος που παρακολουθεί πληροφορίες "
-"σχετικά με πακέτα, ebuilds και τα σχετικά τους metadata που παρέχονται από "
-"το <a href='http://www.gentoo.org/'>Gentoo Linux</a>."
+msgid "\"the fresh ebuilds\" is a site to track information about packages, ebuilds and their relative metadata supplied by <a href='http://www.gentoo.org/'>Gentoo Linux</a>."
+msgstr "\"τα φρέσκα ebuilds\" είναι ένας ιστότοπος που παρακολουθεί πληροφορίες σχετικά με πακέτα, ebuilds και τα σχετικά τους metadata που παρέχονται από το <a href='http://www.gentoo.org/'>Gentoo Linux</a>."
 
 #: /home/steve/svn/znurt/about.php:16
 msgid "This site is not an official Gentoo website."
@@ -60,7 +54,7 @@ msgstr "Αρχικός κώδικας και συντήρηση ιστοσελί
 #: /home/steve/svn/znurt/about.php:21
 #, php-format
 msgid "Powered by %s and lots of chocolate-chip cookies."
-msgstr "Υποστηρίζεται από τον %s και από πολλά σοκολατένια μπισκότα."
+msgstr "Υποστηρίζεται από %s και από πολλά σοκολατένια μπισκότα."
 
 #: /home/steve/svn/znurt/architectures.php:7
 msgid "ARCHITECTURES"
@@ -90,8 +84,10 @@ msgstr "Επιλογή κανενός"
 msgid "Reset"
 msgstr "Επαναφορά"
 
-#: /home/steve/svn/znurt/base.php:42 /home/steve/svn/znurt/base.php:65
-#: /home/steve/svn/znurt/base.php:100 /home/steve/svn/znurt/inc.header1.php:10
+#: /home/steve/svn/znurt/base.php:42
+#: /home/steve/svn/znurt/base.php:65
+#: /home/steve/svn/znurt/base.php:100
+#: /home/steve/svn/znurt/inc.header1.php:10
 msgid "the fresh ebuilds"
 msgstr "τα φρέσκα ebuilds"
 
@@ -115,11 +111,13 @@ msgstr "bugs"
 msgid "xml feeds"
 msgstr "τροφοδοσίες xml"
 
-#: /home/steve/svn/znurt/base.php:83 /home/steve/svn/znurt/base.php:147
+#: /home/steve/svn/znurt/base.php:83
+#: /home/steve/svn/znurt/base.php:147
 msgid "licenses"
 msgstr "άδειες"
 
-#: /home/steve/svn/znurt/base.php:95 /home/steve/svn/znurt/base.php:161
+#: /home/steve/svn/znurt/base.php:95
+#: /home/steve/svn/znurt/base.php:161
 #: /home/steve/svn/znurt/feeds.php:47
 msgid "new packages"
 msgstr "νέα πακέτα"
@@ -132,12 +130,15 @@ msgstr "ζητήσεις χαρακτηριστικών"
 msgid "advanced search"
 msgstr "προηγμένη αναζήτηση"
 
-#: /home/steve/svn/znurt/base.php:116 /home/steve/svn/znurt/base.php:176
-#: /home/steve/svn/znurt/base.php:179 /home/steve/svn/znurt/useflags.php:12
+#: /home/steve/svn/znurt/base.php:116
+#: /home/steve/svn/znurt/base.php:176
+#: /home/steve/svn/znurt/base.php:179
+#: /home/steve/svn/znurt/useflags.php:12
 msgid "use flags"
 msgstr "use flags"
 
-#: /home/steve/svn/znurt/base.php:142 /home/steve/svn/znurt/base.php:225
+#: /home/steve/svn/znurt/base.php:142
+#: /home/steve/svn/znurt/base.php:225
 msgid "architecture"
 msgstr "αρχιτεκτονική"
 
@@ -149,7 +150,8 @@ msgstr "νέα ebuilds"
 msgid "search"
 msgstr "αναζήτηση"
 
-#: /home/steve/svn/znurt/bugs.php:2 /home/steve/svn/znurt/inc.package.php:51
+#: /home/steve/svn/znurt/bugs.php:2
+#: /home/steve/svn/znurt/inc.package.php:51
 msgid "BUGS"
 msgstr "BUGS"
 
@@ -160,13 +162,14 @@ msgstr "ΚΑΤΗΓΟΡΙΕΣ"
 #: /home/steve/svn/znurt/feeds.php:7
 #: /home/steve/svn/znurt/nav.social_media.php:4
 msgid "Subscription Feeds"
-msgstr "Τροφοδοσίες προς εγγραφή"
+msgstr "Τροφοδοσίες"
 
 #: /home/steve/svn/znurt/feeds.php:11
 msgid "fresh ebuilds"
 msgstr "φρέσκα ebuilds"
 
-#: /home/steve/svn/znurt/feeds.php:26 /home/steve/svn/znurt/feeds.php:56
+#: /home/steve/svn/znurt/feeds.php:26
+#: /home/steve/svn/znurt/feeds.php:56
 msgid "All Architectures"
 msgstr "Όλες οι αρχιτεκτονικές"
 
@@ -335,7 +338,7 @@ msgstr "ΑΔΕΙΕΣ ΧΡΗΣΗΣ ΛΟΓΙΣΜΙΚΟΥ"
 
 #: /home/steve/svn/znurt/nav.legend.php:3
 msgid "LEGEND"
-msgstr "LEGEND"
+msgstr "ΥΠΟΜΝΗΜΑ"
 
 #: /home/steve/svn/znurt/nav.legend.php:5
 msgid "stable"
@@ -400,7 +403,7 @@ msgstr "Αναζήτηση"
 
 #: /home/steve/svn/znurt/nav.social_media.php:5
 msgid "Follow us on Twitter"
-msgstr "Ακολουθήστε μας στο Twitter"
+msgstr "Twitter"
 
 #: /home/steve/svn/znurt/new.php:15
 msgid "SORT BY PLATFORM"
@@ -422,7 +425,8 @@ msgstr "Προηγούμενη Σελίδα"
 msgid "ADVANCED SEARCH"
 msgstr "ΠΡΟΗΓΜΕΝΗ ΑΝΑΖΗΤΗΣΗ"
 
-#: /home/steve/svn/znurt/search.php:79 /home/steve/svn/znurt/search.php:109
+#: /home/steve/svn/znurt/search.php:79
+#: /home/steve/svn/znurt/search.php:109
 #, php-format
 msgid "SEARCH RESULTS FOR %1$s &nbsp; (%2$u)"
 msgstr "ΑΠΟΤΕΛΕΣΜΑΤΑ ΑΝΑΖΗΤΗΣΗΣ ΓΙΑ %1$s &nbsp; (%2$u)"
@@ -435,3 +439,4 @@ msgstr "ΤΑ (%1$u) ΚΟΡΥΦΑΙΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΓΙΑ %2$s &nbsp;
 #: /home/steve/svn/znurt/search.php:112
 msgid "Hmm, that query didn't work."
 msgstr "Χμμμ, αυτό το ερώτημα απέτυχε."
+
