@@ -375,9 +375,8 @@
 			$html .= "\t\t\t\t\t<ul>\n";
 			
 			$html .= "\t\t\t\t\t\t<li class='meta_homepage'><a href='$homepage' rel='nofollow'>$istr_homepage</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_forums'><a href='$gentoo_forums'>$istr_forums</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_mailing_list'><a href='$ml'>$istr_mailing_lists</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_wiki'><a href='$gentoo_wiki'>$istr_wiki</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_changelog'><a href='$changelog' onclick=\"$('data').update($('changelog').innerHTML); return false;\">$istr_changelog</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$bugs' onclick=\"$('data').update($('bugs').innerHTML); return false;\">$istr_bugs</a></li>\n";
 			
 			$html .= "\t\t\t\t\t</ul>\n";
 			$html .= "\t\t\t\t</div>\n";
@@ -387,10 +386,10 @@
 			$html .= "\t\t\t\t<div class='pkg_col'>\n";
 			$html .= "\t\t\t\t\t<ul>\n";
 			
-			$html .= "\t\t\t\t\t\t<li class='meta_changelog'><a href='$changelog' onclick=\"$('data').update($('changelog').innerHTML); return false;\">$istr_changelog</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$bugs' onclick=\"$('data').update($('bugs').innerHTML); return false;\">$istr_bugs</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_useflags'><a href='$useflags' onclick=\"$('data').update($('useflags').innerHTML); return false;\">$istr_use_flags</a></li>\n";
-	 		$html .= "\t\t\t\t\t\t<li class='meta_dependencies'><a href='$dependencies' onclick=\"$('data').update($('dependencies').innerHTML); return false;\">$istr_dependencies</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_forums'><a href='$gentoo_forums'>$istr_forums</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_mailing_list'><a href='$ml'>$istr_mailing_lists</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_wiki'><a href='$gentoo_wiki'>$istr_wiki</a></li>\n";
+	 		// $html .= "\t\t\t\t\t\t<li class='meta_dependencies'><a href='$dependencies' onclick=\"$('data').update($('dependencies').innerHTML); return false;\">$istr_dependencies</a></li>\n";
 			
 			$html .= "\t\t\t\t\t</ul>\n";
 			$html .= "\t\t\t\t</div>\n";
@@ -401,6 +400,7 @@
 			$html .= "\t\t\t\t\t<ul>\n";
 			
 // 			$html .= "\t\t\t\t\t\t<li class='meta_downloads'><a href='$downloads' onclick=\"$('data').update($('downloads').innerHTML); return false;\">Downloads</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_useflags'><a href='$useflags' onclick=\"$('data').update($('useflags').innerHTML); return false;\">$istr_use_flags</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_license'><a href='$license' onclick=\"$('data').update($('license').innerHTML); return false;\">License</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_cvs'><a href='$gentoo_cvs'>View CVS</a></li>\n";
 			if($view == 'ebuild')

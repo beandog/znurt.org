@@ -224,7 +224,7 @@ body {
 
 				.vr_dotted {
 					width: 3px;
-					height: 100px;
+					height: 75px;
 					background: url('../img/vr_dotted.gif') repeat-y;
 					float: left;
 				}				
