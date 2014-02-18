@@ -606,6 +606,11 @@ table tr.even a:visited, table tr.even a:link, table tr.odd a:visited, table tr.
 	color: #702570;
 }
 
+.changelog .dev {
+	font-weight: bold;
+	color: #69A04C;
+}
+
 p.recent_changes, p.description {
 	color: black;
 }
