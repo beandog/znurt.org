@@ -42,7 +42,6 @@
 		$db =& MDB2::singleton();
 		
 		if($arch) {
-// 			$sql ="SELECT DISTINCT pr.package FROM package_recent pr INNER JOIN ebuild e ON e.package = pr.package INNER JOIN ebuild_arch ea ON ea.ebuild = e.id AND ea.arch != 2 INNER JOIN arch a ON ea.arch = a.id AND a.name = ".$db->quote($arch)." ORDER BY max_ebuild_mtime DESC, package LIMIT $amount OFFSET $offset";
 			$sql = "SELECT package FROM package_recent_arch pra INNER JOIN arch a ON pra.arch = a.id AND a.name = ".$db->quote($arch)." WHERE pra.status = 0 ORDER BY pra.max_ebuild_mtime DESC, pra.package LIMIT $amount OFFSET $offset";
 		} else {
 			$sql = "SELECT package FROM package_recent WHERE status = 0 ORDER BY max_ebuild_mtime DESC, package LIMIT $amount OFFSET $offset";
@@ -55,8 +54,6 @@
 		// This tracks what was the *last modified* ebuild *PLUS* an hour before that, to get (ostensibly) all the changes
 		// since the last run.
  		$sql = "SELECT e.package, e.id AS ebuild FROM ebuild e INNER JOIN package_recent pr ON e.package = pr.package AND e.cache_mtime > (pr.max_ebuild_mtime - 3600) WHERE pr.status = 0 AND e.status = 0 AND e.package IN ($sql) ORDER BY pr.max_ebuild_mtime DESC, e.package, e.ev DESC, e.lvl DESC, e.p IS NULL, e.p DESC, e.rc IS NULL, e.rc DESC, e.pre IS NULL, e.pre DESC, e.beta IS NULL, e.beta DESC, e.alpha IS NULL, e.alpha DESC, e.pr IS NULL, e.pr DESC;";
- 		
-//   		echo $sql;
  		
   		$arr = $db->getAll($sql);
  		

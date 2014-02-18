@@ -14,7 +14,6 @@
 			$this->name = $name;
 			
 			// Find out as much as we can
-// 			$sql = "SELECT pu.* FROM package_use pu INNER JOIN use u ON pu.use = u.id WHERE u.name = ".$db->quote($name).";";
 			$sql = "SELECT * FROM package_use WHERE package = ".$db->quote($package)." AND use = ".$db->quote($use).";";
 			$row = $db->getRow($sql);
 			

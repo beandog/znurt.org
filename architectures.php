@@ -7,8 +7,6 @@
 	$str = gettext("ARCHITECTURES");
 	echo "<h4>$str</h4>\n";
 	
-// 	Common::pre($_COOKIE['arch']);
-	
 	echo "<hr class='pkg_rule' style='margin-bottom: 15px; margin-top: 15px;'>\n";
 	
 	echo "<div class='about'>\n";

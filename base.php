@@ -198,10 +198,6 @@
 				$html_title = $uri[0]." ~ ".$uri[1];
 			}
 			
-// 			if($uri[2] == 'xml') {
-// 				$xml = true;
-// 				$file = 'xml.package.php';
-// 			}
 		}
 		
 	} elseif(count($uri) == 3 && !$file) {
@@ -293,7 +289,6 @@
 		
 		echo "<div align='center'><img src='".$base_uri."images/failboat.jpg'></div>\n";
 		
-//  		print_r($uri);
 	}
 	
 	if(!$xml)

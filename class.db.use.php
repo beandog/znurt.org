@@ -27,8 +27,6 @@
 			
 				if($this->type == 'local') {
 					$this->cp = $key;
-// 					$sql = "SELECT package FROM view_package WHERE cp = ".$db->quote($this->cp).";";
-// 					$this->package = $db->getOne($sql);
 				} elseif($this->type == 'expand') {
 					$this->prefix = $key;
 				}
