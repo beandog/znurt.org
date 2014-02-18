@@ -17,7 +17,7 @@
 		$arr_replacements = array(
 			"<a href='https://bugs.gentoo.org/$4'>$1$4</a>",
  			"<span class='date'>$1</span>;",
-  			"(<a href='http://cia.vc/stats/author/$1'>$1</a>)",
+  			"($1)",
 		);
 		
  		$str_changelog = wordwrap($str_changelog, 80);
