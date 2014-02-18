@@ -128,7 +128,7 @@
  		$gentoo_changelog = "http://sources.gentoo.org/viewcvs.py/*checkout*/gentoo-x86/$url_category/$url_package/ChangeLog";
 		$gentoo_cvs = "http://sources.gentoo.org/viewcvs.py/gentoo-x86/$url_category/$url_package/?hideattic=0";
 		$gentoo_bugs = "https://bugs.gentoo.org/buglist.cgi?query_format=&amp;short_desc_type=allwords&amp;short_desc=$url_package&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED";
-		$gentoo_wiki = "http://en.gentoo-wiki.com/w/index.php?title=Special%3ASearch&amp;search=".urlencode(str_replace("-", " ", $package_name));
+		$gentoo_wiki = "http://wiki.gentoo.org/index.php?title=Special%3ASearch&amp;search=".urlencode(str_replace("-", " ", $package_name));
 		$gentoo_forums = "http://forums.gentoo.org/search.php?search_terms=all&amp;show_results=topics&amp;search_keywords=$url_package&amp;mode=results";
 		
 		$bugs = $base_uri."$url_category/$url_package/bugs";
