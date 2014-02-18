@@ -46,7 +46,7 @@
 		/** Bugs **/
 		echo "<div id='bugs' style='display: none;'>\n";
 		
-		$gentoo_bugs = "https://bugs.gentoo.org/buglist.cgi?query_format=&amp;short_desc_type=allwords&amp;short_desc=".urlencode($p->name)."&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED";
+		$gentoo_bugs = "https://bugs.gentoo.org/buglist.cgi?quicksearch=".urlencode($p->name);
 		
 		$str = gettext("BUGS");
 		
