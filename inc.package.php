@@ -45,49 +45,7 @@
 		
 		/** Bugs **/
 		echo "<div id='bugs' style='display: none;'>\n";
-		
-		$gentoo_bugs = "https://bugs.gentoo.org/buglist.cgi?quicksearch=".urlencode($p->name);
-		
-		$str = gettext("BUGS");
-		
-		echo "<h4>$str</h4>\n";
-		
-		$sql = "SELECT bug, description FROM package_bugs WHERE package = ".$db->quote($package_id)." AND status = 0 ORDER BY bug;";
-		$arr = $db->getAssoc($sql);
-		
-		if(count($arr)) {
-		
-			echo "<table class='bugs' cellpadding='4' cellspacing='0'>\n";
-// 			echo "\t<tr>\n";
-// 			echo "\t\t<th>Bug</th><th>Description</th>\n";
-// 			echo "\t</tr>\n";
-			
-			$x = 0;
-		
-			foreach($arr as $bug => $description) {
-			
-				$class = getRowClass($x++);
-			
-				echo "\t<tr class='$class'>\n";
-				echo "\t\t<td><a href='https://bugs.gentoo.org/$bug'>$bug</a></td>\n";
-				echo "\t\t<td>".htmlentities($description)."</td>\n";
-				echo "\t</tr>\n";
-			
-			}
-			
-			echo "</table>\n";
-			
-		} else {
-			$str = gettext("No bugs found");
-			echo "<p><b>$str</b></p>\n";
-		}
-		
-		
-		if($lingua == "en")
-			echo "<p style='margin: 0 20px;'><b>Notes:</b> This list is taken from a snapshot, and is not a reliable reference.  Search <a href='$gentoo_bugs'>bugzilla</a> for accurate results.</p>\n";
-		
 		echo "</div>\n";
-		
 		
 		/** Use Flags **/
 		echo "<div id='useflags' style='display: none;'>\n";
