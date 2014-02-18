@@ -85,7 +85,7 @@
 		$c = new PackageChangelog($p->changelog);
 		
 		$recent_changes = htmlspecialchars($p->recent_changes);
-		$recent_changes = preg_replace('/((bug\n?)( {1,2}\D?)|#)(\d{5,})/i', "<a href='https://bugs.gentoo.org/$4'>$1$4</a>", $recent_changes);
+		$recent_changes = preg_replace('/((bug\n?)( {1,2}\D?)|#)(\d{5,})/i', "<a href='https://bugs.gentoo.org/$4' target='_blank'>$1$4</a>", $recent_changes);
 		$recent_date = $c->recent_date;
 		
 		$category_name = $e->category_name;
@@ -131,7 +131,6 @@
 		$gentoo_wiki = "http://wiki.gentoo.org/index.php?title=Special%3ASearch&amp;search=".urlencode(str_replace("-", " ", $package_name));
 		$gentoo_forums = "http://forums.gentoo.org/search.php?search_terms=all&amp;show_results=topics&amp;search_keywords=$url_package&amp;mode=results";
 		
-		$bugs = $base_uri."$url_category/$url_package/bugs";
 		$changelog = $base_uri."$url_category/$url_package/changelog";
 		$ml = "http://www.mail-archive.com/search?q=$url_package&amp;l=gentoo-user%40lists.gentoo.org";
 		
@@ -334,7 +333,7 @@
  			if($view == 'new' || $view == 'search') {
  				$html .= "\t\t\t\t\t\t<li class='meta_package'><a href='$base_uri$url_category'>$category_name</a></li>\n";
  			} else {
- 				$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$bugs' onclick=\"$('data').update($('bugs').innerHTML); return false;\">$istr_bugs</a></li>\n";
+ 				$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$gentoo_bugs' target='_blank'>$istr_bugs</a></li>\n";
  				$html .= "\t\t\t\t\t\t<li class='meta_database_table'><a href='$gentoo_cvs'>$istr_cvs</a></li>\n";
  			}
 			
@@ -376,7 +375,7 @@
 			
 			$html .= "\t\t\t\t\t\t<li class='meta_homepage'><a href='$homepage' rel='nofollow' target='_blank'>$istr_homepage</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_changelog'><a href='$changelog' onclick=\"$('data').update($('changelog').innerHTML); return false;\">$istr_changelog</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$bugs' onclick=\"$('data').update($('bugs').innerHTML); return false;\">$istr_bugs</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$gentoo_bugs' target='_blank'>$istr_bugs</a></li>\n";
 			
 			$html .= "\t\t\t\t\t</ul>\n";
 			$html .= "\t\t\t\t</div>\n";
