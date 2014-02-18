@@ -104,11 +104,6 @@
 					$html_title = gettext('new packages');
 					break;
 				
-				case 'requests':
-					$file = 'requests.php';
-					$html_title = gettext('the fresh ebuilds').' ~ '.gettext('feature requests');
-					break;
-				
 				case 'search':
 					$file = "search.php";
 					$html_title = gettext("advanced search");

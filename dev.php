@@ -17,7 +17,6 @@
 	echo "<li> <a href='https://github.com/beandog/znurt.org'>znurt.org frontend git</a></li>\n";
 	echo "<li> <a href='https://github.com/beandog/znurt'>znurt.org backend git</a></li>\n";
 	echo "<li> <a href='/xml'>XML</a></li>\n";
-	echo "<li> <a href='/requests'>Feature requests</a></li>\n";
 	
 	echo "</div>\n";
 	
