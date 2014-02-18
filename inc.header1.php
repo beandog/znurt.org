@@ -323,18 +323,18 @@
 			
 			$html .= "\t\t\t\t\t<ul>\n";
 			
-			$html .= "\t\t\t\t\t\t<li class='meta_homepage'><a href='$homepage' rel='nofollow'>$istr_homepage</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_forums'><a href='$gentoo_forums'>$istr_forums</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_mailing_list'><a href='$ml'>$istr_mailing_lists</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_homepage'><a href='$homepage' rel='nofollow' target='_blank'>$istr_homepage</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_forums'><a href='$gentoo_forums' target='_blank'>$istr_forums</a></li>\n";
+			$html .= "\t\t\t\t\t\t<li class='meta_mailing_list'><a href='$ml' target='_blank'>$istr_mailing_lists</a></li>\n";
 			if($lingua != "cs")
-				$html .= "\t\t\t\t\t\t<li class='meta_wiki'><a href='$gentoo_wiki'>$istr_wiki</a></li>\n";
+				$html .= "\t\t\t\t\t\t<li class='meta_wiki'><a href='$gentoo_wiki' target='_blank'>$istr_wiki</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_changelog'><a href='$changelog' onclick=\"$('data').update($('changelog').innerHTML); return false;\">$istr_changelog</a></li>\n";
  			$html .= "\t\t\t\t\t\t<li class='meta_useflags'><a href='$useflags'>$istr_use_flags</a></li>\n";
  			if($view == 'new' || $view == 'search') {
  				$html .= "\t\t\t\t\t\t<li class='meta_package'><a href='$base_uri$url_category'>$category_name</a></li>\n";
  			} else {
  				$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$gentoo_bugs' target='_blank'>$istr_bugs</a></li>\n";
- 				$html .= "\t\t\t\t\t\t<li class='meta_database_table'><a href='$gentoo_cvs'>$istr_cvs</a></li>\n";
+ 				$html .= "\t\t\t\t\t\t<li class='meta_database_table'><a href='$gentoo_cvs' target='_blank'>$istr_cvs</a></li>\n";
  			}
 			
 			$html .= "\t\t\t\t\t</ul>\n";
