@@ -160,22 +160,9 @@
 			$useflags = $base_uri."$url_category/$url_package/useflags";
 		}
 		
-		// License
-// 		$arr_licenses = $e->licenses;
-// 		
-// 		$url_licenses = array();
-// 		
-// 		if(count($arr_licenses)) {
-// 			foreach($arr_licenses as $name) {
-// 				$str = nl2br(wordwrap(str_replace('-', ' ', $name), 25));
-// 				$url_licenses[$str] = $base_uri."licenses/".urlencode($name);
-// 			}
-// 		}
-		
 		$x = 0;
 		
 		/** New **/
-// 		$html .= "<!-- start package -->\n";
 		$html .= "<div class='package'>\n";
 		$html .= "\t<hr class='pkg_rule'>\n";
 		$html .= "\t\t<div class='pkg_container'>\n";
@@ -309,9 +296,6 @@
 		
 		$html .= "\t\t\t\t\t</table>\n";
 		
-// 		if($view == 'ebuild' || $view == 'new' || $view == 'category')
-//  			$html .= "\t\t\t\t<p class='recent_changes'><b>Description:</b> $description</p>\n";
-		
 		if($recent_changes && ($view == 'new' || $view == 'package'))
 			$html .= "\t\t\t\t<p class='recent_changes'><b>$istr_recent_changes:</b> &nbsp; $recent_changes</p>\n";
 			
@@ -358,16 +342,6 @@
 			$html .= "\t\t\t\t\t<p><a href='".$base_uri.$url_category."'>$category_name</a></p>\n";
 			$html .= "\t\t\t\t</div>\n";
 			
-// 			$html .= "\t\t\t\t<div class='vr_dotted'></div>\n";
-			
-// 			$html .= "\t\t\t\t<div class='pkg_col'>\n";
-// 			$html .= "\t\t\t\t\t<ul>\n";
-// 			$html .= "\t\t\t\t\t<h4>$istr_license:</h4>\n";
-// 			foreach($url_licenses as $name => $url)
-// 				$html .= "\t\t\t\t\t\t<li><a href='$url'>$name</a></li>\n";
-// 			$html .= "\t\t\t\t\t</ul>\n";
-// 			$html .= "\t\t\t\t</div>\n";
-			
 			$html .= "\t\t\t\t<div class='vr_dotted'></div>\n";
 			
 			$html .= "\t\t\t\t<div class='pkg_col'>\n";
@@ -388,7 +362,6 @@
 			$html .= "\t\t\t\t\t\t<li class='meta_forums'><a href='$gentoo_forums' target='_blank'>$istr_forums</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_mailing_list'><a href='$ml' target='_blank'>$istr_mailing_lists</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_wiki'><a href='$gentoo_wiki' target='_blank'>$istr_wiki</a></li>\n";
-	 		// $html .= "\t\t\t\t\t\t<li class='meta_dependencies'><a href='$dependencies' onclick=\"$('data').update($('dependencies').innerHTML); return false;\">$istr_dependencies</a></li>\n";
 			
 			$html .= "\t\t\t\t\t</ul>\n";
 			$html .= "\t\t\t\t</div>\n";
@@ -398,7 +371,6 @@
 			$html .= "\t\t\t\t<div class='pkg_col'>\n";
 			$html .= "\t\t\t\t\t<ul>\n";
 			
-// 			$html .= "\t\t\t\t\t\t<li class='meta_downloads'><a href='$downloads' onclick=\"$('data').update($('downloads').innerHTML); return false;\">Downloads</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_useflags'><a href='$useflags' onclick=\"$('data').update($('useflags').innerHTML); return false;\">$istr_use_flags</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_license'><a href='$license' onclick=\"$('data').update($('license').innerHTML); return false;\">License</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_cvs'><a href='$gentoo_cvs' target='_blank'>View CVS</a></li>\n";
