@@ -1,4 +1,4 @@
-<?
+<?php
 
 	header('Content-type: text/html; charset=utf-8');
 
@@ -13,7 +13,7 @@
 		'it_IT' => 'Italian',
 		'ru_RU' => 'Russian',
 	);
-	
+
 	if($_SERVER['HTTP_HOST'] == "cs.znurt.org" || $lingua == "cs") {
 		$lingua = "cs";
 		$locale = "cs_CZ";
@@ -47,14 +47,14 @@
 	$img_flag = $base_uri.'img/flags/'.$lingua.'.png';
 
 	if($locale && in_array($locale, array_keys($arr_locales))) {
-	
+
 		setlocale(LC_MESSAGES, $locale);
 		bindtextdomain("messages", "./locale");
-		bind_textdomain_codeset("messages", 'UTF-8'); 
+		bind_textdomain_codeset("messages", 'UTF-8');
 		textdomain("messages");
-		
+
 	}
-	
+
 	if($i18n) {
 		$url_new_packages = str_replace(" ", "_", gettext("new packages"));
 		$url_categories = gettext("categories");
@@ -72,6 +72,7 @@
 		$url_about = "about";
 		$url_feeds = "feeds";
 	}
-	
+
 	date_default_timezone_set('UTC');
+
 ?>

@@ -1,2 +1,2 @@
 </head>
-<body id='<?=$body;?>' onload="disableAutocomplete();">
+<body id='<?php echo $body; ?>' onload="disableAutocomplete();">

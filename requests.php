@@ -1,9 +1,9 @@
-<?
-	
+<?php
+
 	echo "<h4>feature requests</h4>";
-	
+
 	echo "<hr class='pkg_rule' style='margin-bottom: 15px; margin-top: 15px;'>\n";
-	
+
 	echo "<div class='about'>\n";
 	echo "<p>There are a lot of planned features for the site.  If you don't see what you want added here, please feel free to <a href='http://wonkabar.org/contact-me'>contact me</a> and I'll let you know if it's viable or not.</p>\n";
 	echo "<p>Meanwhile, here's the ones that are going to go in sooner or later:</p>\n";
@@ -34,8 +34,7 @@
 	echo "<li> database dumps</li>\n";
 	echo "<li> open source website</li>\n";
 	echo "</ul>\n";
-	
+
 	echo "</div>\n";
-		
 
 ?>
