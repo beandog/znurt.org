@@ -8,6 +8,9 @@
 	if($page)
 		$offset = $amount * ($page - 1);
 
+	if($offset < 0)
+		$offset = 0;
+
  	// FIXME is this even right?
  	$sql = "SELECT p.id AS package, e.id AS ebuild FROM package p LEFT OUTER JOIN ebuilds e ON e.package = p.id WHERE p.idate > '2010-01-04 12:00:00.0-07' AND p.portage_mtime IS NOT NULL AND e.id IS NOT NULL ORDER BY p.idate DESC, e.cache_mtime DESC, e.category_name, e.package_name, e.ev DESC, e.lvl DESC, e.p IS NULL, e.p DESC, e.rc IS NULL, e.rc DESC, e.pre IS NULL, e.pre DESC, e.beta IS NULL, e.beta DESC, e.alpha IS NULL, e.alpha DESC, e.pr IS NULL, e.pr DESC LIMIT $amount OFFSET $offset;";
 
