@@ -39,6 +39,9 @@
 
 	function recentPackages($amount, $offset = 0, $arch = "") {
 
+		if($offset < 0)
+			$offset = 0;
+
 		$db =& MDB2::singleton();
 
 		if($arch) {
@@ -53,7 +56,8 @@
 
 		// This tracks what was the *last modified* ebuild *PLUS* an hour before that, to get (ostensibly) all the changes
 		// since the last run.
- 		$sql = "SELECT e.package, e.id AS ebuild FROM ebuild e INNER JOIN package_recent pr ON e.package = pr.package AND e.cache_mtime > (pr.max_ebuild_mtime - 3600) WHERE pr.status = 0 AND e.status = 0 AND e.package IN ($sql) ORDER BY pr.max_ebuild_mtime DESC, e.package, e.ev DESC, e.lvl DESC, e.p IS NULL, e.p DESC, e.rc IS NULL, e.rc DESC, e.pre IS NULL, e.pre DESC, e.beta IS NULL, e.beta DESC, e.alpha IS NULL, e.alpha DESC, e.pr IS NULL, e.pr DESC;";
+ 		// $sql = "SELECT e.package, e.id AS ebuild FROM ebuild e INNER JOIN package_recent pr ON e.package = pr.package AND e.cache_mtime > (pr.max_ebuild_mtime - 3600) WHERE pr.status = 0 AND e.status = 0 AND e.package IN ($sql) ORDER BY pr.max_ebuild_mtime DESC, e.package, e.ev DESC, e.lvl DESC, e.p IS NULL, e.p DESC, e.rc IS NULL, e.rc DESC, e.pre IS NULL, e.pre DESC, e.beta IS NULL, e.beta DESC, e.alpha IS NULL, e.alpha DESC, e.pr IS NULL, e.pr DESC;";
+ 		$sql = "SELECT e.package, e.id AS ebuild FROM ebuild e INNER JOIN package_recent pr ON e.package = pr.package WHERE pr.status = 0 AND e.status = 0 AND e.package IN ($sql) ORDER BY pr.max_ebuild_mtime DESC, e.package, e.ev DESC, e.lvl DESC, e.p IS NULL, e.p DESC, e.rc IS NULL, e.rc DESC, e.pre IS NULL, e.pre DESC, e.beta IS NULL, e.beta DESC, e.alpha IS NULL, e.alpha DESC, e.pr IS NULL, e.pr DESC;";
 
   		$arr = $db->getAll($sql);
 
