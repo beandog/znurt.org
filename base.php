@@ -24,7 +24,16 @@
 			$uri[] = $value;
 	}
 
-	if(count($uri) == 1) {
+	$file = null;
+
+	if(count($uri) == 0) {
+
+		$body = 'home';
+		$page = $uri[0];
+		$view = 'new';
+		$file = "new.php";
+
+	} elseif(count($uri) == 1) {
 
 		if(is_numeric($uri[0])) {
 
