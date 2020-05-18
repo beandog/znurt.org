@@ -46,9 +46,11 @@
 
 				switch($var) {
 
+					/*
 					case 'description':
 						return $this->getDescription();
 						break;
+					*/
 
 					case 'homepage':
 						return $this->getHomepage();
@@ -81,6 +83,7 @@
 		}
 
 		// Strings
+		/*
 		public function getDescription() {
 
 			$db =& MDB2::singleton();
@@ -96,6 +99,7 @@
 			return $this->$var = $value;
 
 		}
+		*/
 
 		public function getHomepage() {
 

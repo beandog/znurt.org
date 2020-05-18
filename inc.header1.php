@@ -93,7 +93,7 @@
 		$package_name = $e->package_name;
 		$cp = "$category_name/$package_name";
 
-		$description = htmlspecialchars($p->description);
+		$description = htmlspecialchars($e->description);
 
 		$iarr_months = array(
 			'January' => gettext('January'),
