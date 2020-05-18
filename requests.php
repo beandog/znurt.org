@@ -15,7 +15,6 @@
 	echo "<li> browse by keyword status (stable, unstable, masked)</li>\n";
 	echo "<li> new ebuilds section and feeds (version bumps)</li>\n";
 	echo "<li> links to downloads in SRC_URI</li>\n";
-	echo "<li> display / search herds, maintainers</li>\n";
 	echo "<li> advanced search</li>\n";
 	echo "<li> view ebuild source</li>\n";
 	echo "<li> type-ahead find in search</li>\n";
