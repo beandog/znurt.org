@@ -59,13 +59,13 @@ body {
 		margin-left: 30px;
 		margin-right: 15px;
 	}
-	
+
 		#sortBy ul {
 			list-style: none;
 			margin: 0;
 			margin-top: 5px;
 		}
-		
+
 		#sortBy ul li {
 			margin: 0;
 			padding: 0;
@@ -73,7 +73,7 @@ body {
 			height: 40px;
 			float: left;
 		}
-		
+
 		#sortBy ul li a{
 			background: url('../img/nav_bg_center.jpg') repeat-x;
 			padding: 0 7px;
@@ -83,41 +83,41 @@ body {
 			text-decoration: none;
 			font-size: 11px;
 		}
-		
+
 		#sortBy ul li.first a {
 			background: url('../img/nav_bg_left.png') no-repeat left top;
 		}
-		
-		#sortBy ul li.last a{ 
+
+		#sortBy ul li.last a{
 			background: url('../img/nav_bg_right.png') no-repeat right top;
-			border:none; 
+			border:none;
 		}
-		
+
 		#sortBy ul li.first a:hover {
 			background-position: left bottom;
 		}
-		
+
 		#sortBy ul li.last a:hover {
 			background-position: right bottom;
 		}
-		
+
 		#sortBy ul li a:hover, #sortBy ul li a.active {
 			color: #fff;
 			text-decoration: none;
 			background-position: left bottom;
-		}		
+		}
 
 	.package {
 		margin-bottom: 20px;
 		margin-top: 15px;
 	}
-		
+
 		.pkg_container {
 			background: #e8e8e8;
 			width: 710px;
 			margin-left: 30px;
 		}
-		
+
 			.pkg_name {
 				width: 400px;
 				height: 33px;
@@ -126,20 +126,20 @@ body {
 				margin-top: -16px;
 				float:left;
 			}
-				
+
 			.pkg_date {
 				padding: 10px 17px 15px 0;
 				font-size: 10px;
 				color: #666;
 				float: right;
 			}
-			
+
 			.recent_changes, .description {
 				font-size: 11px;
 				color: #666;
 				margin: 0 0 0 25px;
 			}
-			
+
 			/* Releases Table */
 			.releases {
 				border: 2px solid #999;
@@ -152,7 +152,7 @@ body {
 				.releases tr {
 					background: #fff;
 				}
-				
+
 				.releases td, .releases th {
 					font-family: Verdana;
 					width: 25px;
@@ -167,27 +167,27 @@ body {
 					font-family: Arial;
 					background-color: #efefef;
 				}
-				
+
 				.releases td.first_cell {
 					width: 125px;
 				}
-				
+
 				.releases td.first_cell a:link {
 					color: #bc3510;
 				}
-				
+
 				.releases td.last_cell, .releases th.last_cell {
 					border-right: none;
 				}
-				
+
 				.stable 		{ background-color: #8ec743; }
 				.testing 		{ background-color: #ffd800; }
 				.not_keyword	{ background-color: #ffffff; }
 				.not_avail	 	{ background-color: #e2ded2; }
 				.m_stable	 	{ background-color: #f28d90; }
-				
+
 			/* End Releases Table */
-			
+
 		.pkg_meta {
 			width: 710px;
 			margin: 10px 0 0 30px;
@@ -197,23 +197,23 @@ body {
 				margin-right: 10px;
 				float: left;
 			}
-		
+
 			.pkg_col {
 				width: 100px;
 				margin: 0 8px;
 				float: left;
 			}
-			
+
 			.pkg_row {
 				padding-top: 12px;
 				margin-left: 50px;
 			}
-			
+
 			.pkg_row li {
 				display: inline;
 				padding-right: 12px;
 			}
-			
+
 				.pkg_col h4, .pkg_desc h4, .pkg_row h4 {
 					margin: 0;
 					padding: 0;
@@ -227,20 +227,20 @@ body {
 					height: 75px;
 					background: url('../img/vr_dotted.gif') repeat-y;
 					float: left;
-				}				
-			
+				}
+
 				.pkg_col ul, .pkg_row ul {
 					list-style: none !important;
 					margin: 0;
 				}
-				
+
 				.pkg_col li a, .pkg_row li a {
 					color: #bc3510 !important;
 				}
-				
-				
-				.pkg_col li.meta_cvs, .pkg_row li.meta_cvs	  	{ background: url('../img/icon_drive_network.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
-				
+
+
+				.pkg_col li.meta_git, .pkg_row li.meta_git	  	{ background: url('../img/icon_drive_network.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
+
 				.pkg_col li.meta_useflags, .pkg_row li.meta_useflags { background: url('../img/icon_flag_purple.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_changelog, .pkg_row li.meta_changelog 	{ background: url('../img/icon_changelog.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_dependencies, .pkg_row li.meta_dependencies	{ background: url('../img/icon_bricks.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
@@ -251,12 +251,12 @@ body {
 				.pkg_col li.meta_downloads, .pkg_row li.meta_downloads 	{ background: url('../img/icon_disk.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_license, .pkg_row li.meta_license 	{ background: url('../img/icon_asterisk_orange.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_timeline_marker, .pkg_row li.meta_timeline_marker { background: url('../img/icon_timeline_marker.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
-				
+
 				.pkg_col li.meta_homepage, .pkg_row li.meta_homepage 	{ background: url('../img/icon_homepage.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_wiki, .pkg_row li.meta_wiki { background: url('../img/icon_layout.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_package, .pkg_row li.meta_package { background: url('../img/icon_package.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_database_table, .pkg_row li.meta_database_table { background: url('../img/icon_database_table.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
-				
+
 				.pkg_row li.meta_homepage, .pkg_row li.meta_wiki, .pkg_row li.meta_package, .pkg_row li.meta_useflags, .pkg_row li.meta_bugs, .pkg_row li.meta_forums, .pkg_row li.meta_mailing_list, .pkg_row li.meta_changelog, .pkg_row li.meta_database_table {
 					padding-bottom: 2px;
 				}
@@ -271,8 +271,8 @@ body {
 				margin: 7px 0 0 10px;
 				float: right;
 			}
-		
-		
+
+
 /* -------------------------------------------------------- */
 /*   SIDEBAR   */
 /* -------------------------------------------------------- */
@@ -293,25 +293,25 @@ body {
 			padding-bottom: 0;
 			margin: 0;
 		}
-		
+
 		#search .search {
 			display: none;
 		}
-		
+
 		#search .q {
 		}
-		
+
 	#legend {
 		width: 177px;
 		background: #e2ded2;
 		margin: 20px 0 20px 15px;
 	}
-	
+
 		#legend ul {
 			list-style: none;
 			margin: 10px 0 10px 6px;
 		}
-		
+
 		#legend li {
 			width: 155px;
 			height: 20px;
@@ -319,51 +319,51 @@ body {
 			padding-left: 10px;
 			margin-bottom: 1px;
 		}
-		
+
 		#legend .legend_top {
 			background: #e2ded2 url('../img/tanBox_top.jpg') no-repeat;
 			width: 177px;
 			height: 5px;
 		}
-				
+
 		#legend .legend_bottom {
 			background: #e2ded2 url('../img/tanBox_bottom.jpg') no-repeat;
 			width: 177px;
 			height: 5px;
-		}	
-		
+		}
+
 	#social_media {
-		
-	}	
-		
+
+	}
+
 		#social_media ul {
 			list-style: none;
 			margin: 0;
 			margin-left: 25px;
 			margin-top: 15px;
 		}
-		
+
 		#social_media ul li {
 			height: 30px;
 			line-height: 23px;
 			padding-left: 30px;
 		}
-		
+
 		#social_media ul li.feed {
 			background: url('../img/icon_rss.png') no-repeat top left;
 		}
-		
+
 		#social_media li.twitter {
 			background: url('../img/icon_twitter.png') no-repeat top left;
 		}
-		
-		
+
+
 	.meta {
 		margin: 0;
 		padding: 10px 0;
 		padding-left: 20px;
 	}
-	
+
 
 #footer {
 	clear: both;
@@ -388,21 +388,21 @@ body {
 		color: #333;
 		text-decoration: none;
 		text-indent: 20px;
-		background: url(../img/nav_bg.png) no-repeat left top;	
+		background: url(../img/nav_bg.png) no-repeat left top;
 		border:none;
 	}
-	
+
 	ul.mainNav a:hover {
-		background: url(../img/nav_bg.png) no-repeat right top;	
+		background: url(../img/nav_bg.png) no-repeat right top;
 		border:none;
 	}
-	
+
 	ul.mainNav li {
 		/* fixes IE */
 		display: inline;
 	}
-	
-	
+
+
 /* Set active nav */
 /* These correspond to whatever you set as body id */
 #home ul.mainNav .home a,
@@ -415,7 +415,7 @@ body {
 #about ul.mainNav .about a,
 #arch ul.mainNav .arch a,
 #bugs ul.mainNav .bugs a {
-		background: url('../img/nav_bg.png') no-repeat right top;	
+		background: url('../img/nav_bg.png') no-repeat right top;
 }
 
 
@@ -622,7 +622,7 @@ p.recent_changes a, p.description a {
 
 p.recent_changes a:hover, p.description a:hover {
  	text-decoration: none;
- 	border-bottom: 1px dotted black; 
+ 	border-bottom: 1px dotted black;
 }
 
 p.recent_changes b, p.description b {

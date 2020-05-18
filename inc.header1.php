@@ -126,8 +126,7 @@
 		$url_package = urlencode($package_name);
 		$url_pf = urlencode($e->pf);
 
- 		$gentoo_changelog = "http://sources.gentoo.org/viewcvs.py/*checkout*/gentoo-x86/$url_category/$url_package/ChangeLog";
-		$gentoo_cvs = "http://sources.gentoo.org/viewcvs.py/gentoo-x86/$url_category/$url_package/?hideattic=0";
+		$gentoo_git = "https://github.com/gentoo/gentoo/blob/master/$url_category/$url_package/";
 		$gentoo_bugs = "https://bugs.gentoo.org/buglist.cgi?quicksearch=$url_package";
 		$gentoo_wiki = "http://wiki.gentoo.org/index.php?title=Special%3ASearch&amp;search=".urlencode(str_replace("-", " ", $package_name));
 		$gentoo_forums = "http://forums.gentoo.org/search.php?search_terms=all&amp;show_results=topics&amp;search_keywords=$url_package&amp;mode=results";
@@ -199,7 +198,7 @@
 		$istr_bugs = gettext("Bugs");
 		$istr_category = gettext("Category");
 		$istr_changelog = gettext("ChangeLog");
-		$istr_cvs = gettext("CVS");
+		$istr_git = gettext("GIT");
 		$istr_dependencies = gettext("Dependencies");
 		$istr_forums = gettext("Forums");
 		$istr_homepage = gettext("Homepage");
@@ -209,7 +208,6 @@
 		$istr_package_description = gettext("PACKAGE DESCRIPTION");
 		$istr_planet = gettext("Planet");
 		$istr_recent_changes = gettext("Recent Changes");
-		$istr_source = gettext("Source");
 		$istr_use_flags = gettext("Use Flags");
 		$istr_wiki = gettext("Wiki");
 
@@ -231,7 +229,7 @@
 			$url = $base_uri.$url_category."/".$url_package."/$pf";
 
 			if($view == 'ebuild')
-				$gentoo_cvs = "http://sources.gentoo.org/viewcvs.py/*checkout*/gentoo-x86/$url_category/$url_package/$url_pf.ebuild";
+				$gentoo_git = "https://github.com/gentoo/gentoo/blob/master/$url_category/$url_package/$url_pf.ebuild";
 
 			$html .= "\t\t\t\t\t\t<tr>\n";
 			$html .= "\t\t\t\t\t\t\t<td class='first_cell'><a href='$url' title='$pf'>$pvr</a></td>\n";
@@ -319,7 +317,7 @@
  				$html .= "\t\t\t\t\t\t<li class='meta_package'><a href='$base_uri$url_category'>$category_name</a></li>\n";
  			} else {
  				$html .= "\t\t\t\t\t\t<li class='meta_bugs'><a href='$gentoo_bugs' target='_blank'>$istr_bugs</a></li>\n";
- 				$html .= "\t\t\t\t\t\t<li class='meta_database_table'><a href='$gentoo_cvs' target='_blank'>$istr_cvs</a></li>\n";
+ 				$html .= "\t\t\t\t\t\t<li class='meta_database_table'><a href='$gentoo_git' target='_blank'>$istr_git</a></li>\n";
  			}
 
 			$html .= "\t\t\t\t\t</ul>\n";
@@ -374,11 +372,7 @@
 
 			$html .= "\t\t\t\t\t\t<li class='meta_useflags'><a href='$useflags' onclick=\"$('data').update($('useflags').innerHTML); return false;\">$istr_use_flags</a></li>\n";
 			$html .= "\t\t\t\t\t\t<li class='meta_license'><a href='$license' onclick=\"$('data').update($('license').innerHTML); return false;\">License</a></li>\n";
-			$html .= "\t\t\t\t\t\t<li class='meta_cvs'><a href='$gentoo_cvs' target='_blank'>View CVS</a></li>\n";
-			if($view == 'ebuild')
-				$html .= "\t\t\t\t\t\t<li class='meta_source'><a href='$source' onclick=\"$('data').update($('source').innerHTML); return false;\">Source Code</a></li>\n";
-
-
+			$html .= "\t\t\t\t\t\t<li class='meta_git'><a href='$gentoo_git' target='_blank'>View GIT</a></li>\n";
 			$html .= "\t\t\t\t\t</ul>\n";
 			$html .= "\t\t\t\t</div>\n";
 

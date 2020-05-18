@@ -246,7 +246,7 @@ body {
 				}
 
 
-				.pkg_col li.meta_cvs, .pkg_row li.meta_cvs	  	{ background: url('../img/icon_drive_network.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
+				.pkg_col li.meta_git, .pkg_row li.meta_git	  	{ background: url('../img/icon_drive_network.png') no-repeat left top; padding-left: 23px; line-height: 25px; }
 
 				.pkg_col li.meta_useflags, .pkg_row li.meta_useflags { background: url('../img/sprite.png') no-repeat left top; background-position: -10px -654px; padding-left: 23px; line-height: 25px; }
 				.pkg_col li.meta_changelog, .pkg_row li.meta_changelog 	{ background: url('../img/sprite.png') no-repeat left top; background-position: -10px -618px; padding-left: 23px; line-height: 25px; }
